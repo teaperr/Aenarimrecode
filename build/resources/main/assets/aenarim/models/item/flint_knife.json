@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "aenarim:items/flint_knife"
+		"layer0": "aenarim:item/flint_knife"
 	},
 	"display": {
 		"thirdperson_righthand": {

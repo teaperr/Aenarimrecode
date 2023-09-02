@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/flint_hatchet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/flint_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/flint_knife.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/flint_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/flint_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/acacia_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/birch_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/jungle_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/oak_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/spruce_leaves.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModToolMaterial.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModToolMaterial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" afterDir="false" />
@@ -80,6 +54,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" afterDir="false" />
@@ -89,7 +64,6 @@
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,19 +120,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Settings.Minecraft.TranslationTemplate"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\item" />
@@ -228,5 +202,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="work please" />
     <option name="LAST_COMMIT_MESSAGE" value="work please" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

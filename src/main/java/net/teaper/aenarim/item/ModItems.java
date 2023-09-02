@@ -17,15 +17,15 @@ public class ModItems {
 
     //tool items start
     public static final Item FLINT_KNIFE = registerItem("flint_knife",
-            new SwordItem(ModToolMaterial.FLINT, 5, 1.8f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new SwordItem(ModToolMaterial.FLINT, 2, -2.4f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item FLINT_HATCHET = registerItem("flint_hatchet",
-            new AxeItem(ModToolMaterial.FLINT, 7, 1f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new AxeItem(ModToolMaterial.FLINT, 4, -3.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
-            new PickaxeItem(ModToolMaterial.FLINT, 2, 1f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new PickaxeItem(ModToolMaterial.FLINT, 0, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
-            new ShovelItem(ModToolMaterial.FLINT, 1F, 1.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ShovelItem(ModToolMaterial.FLINT, 1.5f, -2.4f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
-            new ModHoeItem(ModToolMaterial.FLINT, 1, 2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModHoeItem(ModToolMaterial.FLINT, -1, -2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
 
     //adv items start
 
