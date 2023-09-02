@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aenarim:dried_fibre"
+    },
+    "2": {
+      "item": "aenarim:dried_fibre"
+    },
+    "3": {
+      "item": "aenarim:dried_fibre"
+    },
+    "4": {
+      "item": "aenarim:dried_fibre"
+    },
+    "5": {
+      "item": "aenarim:dried_fibre"
+    },
+    "6": {
+      "item": "aenarim:dried_fibre"
+    },
+    "7": {
+      "item": "aenarim:dried_fibre"
+    },
+    "8": {
+      "item": "aenarim:dried_fibre"
+    }
+  },
+  "result": {
+    "item": "aenarim:woven_armour_chestplate",
+    "count": 1
+  }
+}

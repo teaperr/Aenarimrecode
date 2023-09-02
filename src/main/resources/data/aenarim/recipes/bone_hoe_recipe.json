@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "aenarim:sharp_bone"
+    },
+    "1": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "aenarim:fibre"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "aenarim:fibre"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aenarim:bone_hoe",
+    "count": 1
+  }
+}

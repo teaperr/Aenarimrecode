@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-09-02 10:19:32 +0100",
+      "minecraft:dark_forest": "2023-09-02 10:18:10 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

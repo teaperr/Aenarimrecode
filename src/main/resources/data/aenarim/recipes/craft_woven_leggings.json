@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aenarim:dried_fibre"
+    },
+    "1": {
+      "item": "aenarim:dried_fibre"
+    },
+    "2": {
+      "item": "aenarim:dried_fibre"
+    },
+    "3": {
+      "item": "aenarim:dried_fibre"
+    },
+    "5": {
+      "item": "aenarim:dried_fibre"
+    },
+    "6": {
+      "item": "aenarim:dried_fibre"
+    },
+    "8": {
+      "item": "aenarim:dried_fibre"
+    }
+  },
+  "result": {
+    "item": "aenarim:woven_armour_leggings",
+    "count": 1
+  }
+}

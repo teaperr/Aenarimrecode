@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "aenarim:fibre"
+  },
+  "result": "aenarim:dried_fibre"
+}

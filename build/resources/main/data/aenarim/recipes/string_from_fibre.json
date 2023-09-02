@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aenarim:fibre"
+    },
+    {
+      "item": "aenarim:fibre"
+    },
+    {
+      "item": "aenarim:fibre"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 1
+  }
+}
