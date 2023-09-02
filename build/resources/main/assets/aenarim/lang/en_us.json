@@ -1,4 +1,9 @@
 {
   "item.aenarim.dried_fibre": "Dried Fibre",
-  "item.aenarim.fibre": "Fibre"
+  "item.aenarim.fibre": "Fibre",
+  "item.aenarim.flint_knife": "Flint Knife",
+  "item.aenarim.flint_pickaxe": "Flint Pickaxe",
+  "item.aenarim.flint_hatchet": "Flint Hatchet",
+  "item.aenarim.flint_shovel": "Flint Shovel",
+  "item.aenarim.flint_hoe": "Flint Hoe"
 }

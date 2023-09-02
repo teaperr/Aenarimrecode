@@ -1,5 +1,5 @@
-[12:56:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
-[12:56:19] [main/INFO] (FabricLoader) Loading 73 mods:
+[19:17:29] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
+[19:17:30] [main/INFO] (FabricLoader) Loading 73 mods:
 	- aenarim 0.0.1-1.19.2
 	- fabric-api 0.76.1+1.19.2
 	- fabric-api-base 0.4.15+8f4e8eb390
@@ -73,16 +73,16 @@
 	   |-- dev_isxander_settxi_settxi-gui 2.10.5
 	   |-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.5
 	   \-- settxi-gui-yacl 2.10.5
-[12:56:32] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[12:56:33] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[12:56:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[12:56:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[12:56:33] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
-[12:56:34] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[12:56:35] [main/INFO] (Smooth Boot) Smooth Boot config initialized
-[12:56:45] [main/INFO] (Minecraft) Building optimized datafixer
-[12:56:49] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:56:50] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[19:17:43] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:17:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:17:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[19:17:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[19:17:45] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[19:17:46] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[19:17:49] [main/INFO] (Smooth Boot) Smooth Boot config initialized
+[19:17:57] [main/INFO] (Minecraft) Building optimized datafixer
+[19:18:01] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:18:02] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.jar:?]
@@ -101,11 +101,11 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.jar:?]
 	... 10 more
-[12:56:50] [Render thread/INFO] (Minecraft) Setting user: Player849
-[12:56:52] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
-[12:56:53] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[12:56:54] [Render thread/WARN] (FabricLoader/Mixin) Static binding violation: PRIVATE @Overwrite method renderBakedItemModel in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[12:56:55] [Worker-Main-3/ERROR] (Minecraft) Failed to retrieve profile key pair
+[19:18:02] [Render thread/INFO] (Minecraft) Setting user: Player118
+[19:18:04] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:18:04] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:18:06] [Render thread/WARN] (FabricLoader/Mixin) Static binding violation: PRIVATE @Overwrite method renderBakedItemModel in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19:18:07] [Worker-Main-3/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:130) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -116,32 +116,28 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[12:56:55] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Rendering (v1), Fabric Screen API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Mining Level API (v1), Fabric Recipe API (v1), Fabric Models (v0), Aenarim, Sodium, Fabric Key Binding API (v1), Fabric Command API (v2), Fabric Dimensions API (v1), Fabric Crash Report Info (v1), Fabric Message API (v1), Fabric Textures (v0), Fabric Resource Conditions API (v1), Fabric Data Generation API (v1), Fabric Rendering Data Attachment (v1), Fabric Content Registries (v0), Smooth Boot, YetAnotherConfigLib, Fabric Transitive Access Wideners (v1), Fabric Events Interaction (v0), Fabric Block API (v1), Fabric Entity Events (v1), Fabric Client Tags, Fabric Language Kotlin, Fabric Convention Tags, Fabric Transfer API (v1), Fabric Networking API (v1), Fabric Screen Handler API (v1), Fabric API, Fabric Rendering Fluids (v1), Fabric Sound API (v1), Fabric Resource Loader (v0), Fabric Loader, Fabric Loot API (v2), Fabric Item API (v1), Fabric Object Builder API (v1), Fabric API Base, Fabric Registry Sync (v0), Mod Menu, Fabric Game Rule API (v1), Starlight, Fabric API Lookup API (v1), MixinTrace, Fabric Item Groups (v0), Zoomify, Fabric Renderer - Indigo, Fabric Biome API (v1), Fabric Particles (v1), Fabric Game Test API (v1), Fabric Lifecycle Events (v1), Fabric Renderer API (v1))
-[12:56:55] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[12:56:56] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[12:56:59] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'aenarim:flint_hatchet#inventory' referenced from: aenarim:flint_hatchet#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_hatchet.json
-[12:56:59] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'aenarim:flint_pickaxe#inventory' referenced from: aenarim:flint_pickaxe#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_pickaxe.json
-[12:56:59] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'aenarim:flint_hoe#inventory' referenced from: aenarim:flint_hoe#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_hoe.json
-[12:56:59] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'aenarim:flint_shovel#inventory' referenced from: aenarim:flint_shovel#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_shovel.json
-[12:56:59] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'aenarim:flint_knife#inventory' referenced from: aenarim:flint_knife#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_knife.json
-[12:57:00] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[12:57:00] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[12:57:00] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
-[12:57:00] [Render thread/INFO] (Minecraft) Sound engine started
-[12:57:00] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[12:57:01] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12:57:02] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[12:57:03] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[12:57:03] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12:57:03] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12:57:03] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[12:57:12] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_shovel_recipe
+[19:18:07] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Game Test API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Command API (v2), Fabric Rendering (v1), Fabric Particles (v1), Fabric Language Kotlin, Fabric Transitive Access Wideners (v1), Fabric Content Registries (v0), Fabric Screen API (v1), Fabric BlockRenderLayer Registration (v1), Zoomify, Sodium, Fabric Resource Conditions API (v1), Fabric Events Interaction (v0), Fabric Object Builder API (v1), Fabric Transfer API (v1), Mod Menu, Fabric Rendering Data Attachment (v1), Fabric Loader, Fabric Recipe API (v1), Fabric Block API (v1), Fabric Client Tags, Starlight, Fabric Biome API (v1), Fabric API Lookup API (v1), Fabric Textures (v0), MixinTrace, Fabric Loot API (v2), Fabric Rendering Fluids (v1), Fabric Renderer - Indigo, Fabric Data Generation API (v1), Fabric Sound API (v1), Fabric Models (v0), Fabric Screen Handler API (v1), YetAnotherConfigLib, Fabric Lifecycle Events (v1), Fabric Crash Report Info (v1), Fabric Item Groups (v0), Fabric Resource Loader (v0), Fabric Dimensions API (v1), Fabric Message API (v1), Fabric Entity Events (v1), Fabric Item API (v1), Aenarim, Fabric Key Binding API (v1), Fabric API, Fabric Networking API (v1), Smooth Boot, Fabric Game Rule API (v1), Fabric API Base, Fabric Mining Level API (v1), Fabric Convention Tags)
+[19:18:07] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[19:18:07] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[19:18:11] [Worker-Main-2/ERROR] (Minecraft) Using missing texture, file aenarim:textures/items/flint_knife.png not found
+[19:18:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[19:18:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:18:12] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[19:18:12] [Render thread/INFO] (Minecraft) Sound engine started
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:18:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:18:14] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:18:14] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:18:14] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:18:14] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:18:14] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[19:18:19] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_shovel_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -168,7 +164,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -189,7 +185,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_sword_recipe
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_sword_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -216,7 +212,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -237,7 +233,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_hoe_recipe
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_hoe_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -264,7 +260,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -285,7 +281,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:craft_woven_chestplate
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:craft_woven_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_chestplate'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -310,7 +306,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_chestpla
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -331,7 +327,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_chestpla
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_pickaxe_recipe
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_pickaxe_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -358,7 +354,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -379,7 +375,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:craft_woven_leggings
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:craft_woven_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_leggings'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -404,7 +400,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_leggings
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -425,7 +421,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:woven_armour_leggings
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_axe_recipe
+[19:18:23] [Render thread/ERROR] (Minecraft) Parsing error loading recipe aenarim:bone_axe_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -452,7 +448,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -473,8 +469,188 @@ com.google.gson.JsonSyntaxException: Unknown item 'aenarim:sharp_bone'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[12:57:17] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:entities/skeleton
+[19:18:23] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/dark_oak_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/jungle_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:entities/skeleton
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'aenarim:sharp_bone'
 	at net.minecraft.util.JsonHelper.method_17995(JsonHelper.java:137) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -529,7 +705,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:367) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -550,22 +726,382 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[12:57:17] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@77a35cf, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={iron_boots=net.minecraft.advancement.AdvancementCriterion@32435918, iron_chestplate=net.minecraft.advancement.AdvancementCriterion@1e89efe0, iron_leggings=net.minecraft.advancement.AdvancementCriterion@52037d29, iron_helmet=net.minecraft.advancement.AdvancementCriterion@705c87cf}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@40fb4762, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={lava_bucket=net.minecraft.advancement.AdvancementCriterion@548dc24d}, requirements=[[lava_bucket]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancement.AdvancementDisplay@278973d0, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={deflected_projectile=net.minecraft.advancement.AdvancementCriterion@1dac52c6}, requirements=[[deflected_projectile]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@45d700fd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={iron_pickaxe=net.minecraft.advancement.AdvancementCriterion@3a9250e3}, requirements=[[iron_pickaxe]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancement.AdvancementDisplay@3fb1b366, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={entered_nether=net.minecraft.advancement.AdvancementCriterion@170cf93b}, requirements=[[entered_nether]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@7010a4c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={cured_zombie=net.minecraft.advancement.AdvancementCriterion@77b4feb6}, requirements=[[cured_zombie]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancement.AdvancementDisplay@46d3f79f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={obsidian=net.minecraft.advancement.AdvancementCriterion@16c2e0bd}, requirements=[[obsidian]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancement.AdvancementDisplay@7d992128, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={iron=net.minecraft.advancement.AdvancementCriterion@7cdff12e}, requirements=[[iron]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@5e5e51bb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={diamond_leggings=net.minecraft.advancement.AdvancementCriterion@5d8b8ddf, diamond_helmet=net.minecraft.advancement.AdvancementCriterion@7d08fd1f, diamond_chestplate=net.minecraft.advancement.AdvancementCriterion@4220a0d6, diamond_boots=net.minecraft.advancement.AdvancementCriterion@6e5fe2a0}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@1200ab46, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={enchanted_item=net.minecraft.advancement.AdvancementCriterion@3db0144}, requirements=[[enchanted_item]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@7966c62f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={in_stronghold=net.minecraft.advancement.AdvancementCriterion@22ec3966}, requirements=[[in_stronghold]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancement.AdvancementDisplay@396cc784, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={diamond=net.minecraft.advancement.AdvancementCriterion@7a08fec6}, requirements=[[diamond]]}
-[12:57:18] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancement.AdvancementDisplay@751f5452, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@205055ab}, criteria={entered_end=net.minecraft.advancement.AdvancementCriterion@485c6af9}, requirements=[[entered_end]]}
-[12:57:18] [Render thread/INFO] (Minecraft) Loaded 1165 advancements
-[12:57:19] [Worker-Main-3/ERROR] (Minecraft) Failed to retrieve profile key pair
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/birch_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/spruce_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/acacia_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:23] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/oak_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:455) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:473) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:214) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:210) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.loot.LootManager.method_20711(LootManager.java:44) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:42) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.loot.LootManager.apply(LootManager.java:17) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:136) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:117) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:150) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:57) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:528) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:436) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:372) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:489) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1208) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[19:18:24] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@4d0b0064, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={iron_boots=net.minecraft.advancement.AdvancementCriterion@2a9e3906, iron_chestplate=net.minecraft.advancement.AdvancementCriterion@bafc178, iron_leggings=net.minecraft.advancement.AdvancementCriterion@f06fc86, iron_helmet=net.minecraft.advancement.AdvancementCriterion@2942a1d3}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@3fc47e6d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={lava_bucket=net.minecraft.advancement.AdvancementCriterion@3340c7f}, requirements=[[lava_bucket]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancement.AdvancementDisplay@67ef90c4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={deflected_projectile=net.minecraft.advancement.AdvancementCriterion@449b2fb2}, requirements=[[deflected_projectile]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@45d53218, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={iron_pickaxe=net.minecraft.advancement.AdvancementCriterion@582e73af}, requirements=[[iron_pickaxe]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancement.AdvancementDisplay@b76e9c4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={entered_nether=net.minecraft.advancement.AdvancementCriterion@206e500e}, requirements=[[entered_nether]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@61c229b5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={cured_zombie=net.minecraft.advancement.AdvancementCriterion@33feeba3}, requirements=[[cured_zombie]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancement.AdvancementDisplay@7bb03470, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={obsidian=net.minecraft.advancement.AdvancementCriterion@3f577b56}, requirements=[[obsidian]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancement.AdvancementDisplay@6429b19, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={iron=net.minecraft.advancement.AdvancementCriterion@2cbcd4c}, requirements=[[iron]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@4052adb6, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={diamond_leggings=net.minecraft.advancement.AdvancementCriterion@1c2fb95d, diamond_helmet=net.minecraft.advancement.AdvancementCriterion@1e746927, diamond_chestplate=net.minecraft.advancement.AdvancementCriterion@1fda8388, diamond_boots=net.minecraft.advancement.AdvancementCriterion@4ab0a2d8}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@5d39711f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={enchanted_item=net.minecraft.advancement.AdvancementCriterion@1250ae02}, requirements=[[enchanted_item]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@3a812381, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={in_stronghold=net.minecraft.advancement.AdvancementCriterion@2d36ba6d}, requirements=[[in_stronghold]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancement.AdvancementDisplay@19406b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={diamond=net.minecraft.advancement.AdvancementCriterion@18e467d7}, requirements=[[diamond]]}
+[19:18:24] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancement.AdvancementDisplay@3c1b2744, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@31d2e60b}, criteria={entered_end=net.minecraft.advancement.AdvancementCriterion@77a35cf}, requirements=[[entered_end]]}
+[19:18:24] [Render thread/INFO] (Minecraft) Loaded 1165 advancements
+[19:18:25] [Worker-Main-7/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:130) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -576,128 +1112,122 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[12:57:19] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 4.543 ms
-[12:57:19] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
-[12:57:19] [Server thread/INFO] (Minecraft) Generating keypair
-[12:57:20] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[12:57:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[12:57:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[12:57:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[12:57:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[12:57:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 20%
-[12:57:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 56%
-[12:57:30] [Render thread/INFO] (Minecraft) Time elapsed: 9867 ms
-[12:57:33] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3024ms or 60 ticks behind
-[12:57:34] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
-[12:57:34] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[12:57:37] [Server thread/INFO] (Minecraft) Player849[local:E:a46f2f0c] logged in with entity id 174 at (-78.59188727486098, 73.0, -101.14899083337833)
-[12:57:37] [Server thread/INFO] (Minecraft) Player849 joined the game
-[12:57:38] [Render thread/INFO] (ChunkBuilder) Started 1 worker threads
-[12:57:39] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[12:59:53] [Render thread/INFO] (Minecraft) Loaded 8 advancements
-[13:00:15] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:00:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[13:00:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[13:00:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[13:00:17] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:00:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[13:00:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[13:00:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[13:00:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:00:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[13:00:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[13:00:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[13:00:34] [Server thread/INFO] (Minecraft) Player849 lost connection: Disconnected
-[13:00:34] [Server thread/INFO] (Minecraft) Player849 left the game
-[13:00:34] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[13:00:34] [Server thread/INFO] (Minecraft) Stopping server
-[13:00:34] [Server thread/INFO] (Minecraft) Saving players
-[13:00:34] [Server thread/INFO] (Minecraft) Saving worlds
-[13:00:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[13:00:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[13:00:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[13:00:39] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
-[13:00:39] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:00:39] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:00:39] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[13:00:39] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
-[13:00:39] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[13:00:47] [Render thread/INFO] (Minecraft) Stopping!
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[13:00:47] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:18:25] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 7.187 ms
+[19:18:25] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
+[19:18:25] [Server thread/INFO] (Minecraft) Generating keypair
+[19:18:26] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[19:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[19:18:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 8%
+[19:18:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 51%
+[19:18:37] [Render thread/INFO] (Minecraft) Time elapsed: 11129 ms
+[19:18:38] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[19:18:38] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[19:18:41] [Server thread/INFO] (Minecraft) Player118[local:E:d279b1d1] logged in with entity id 200 at (-76.25746495893888, 72.0, -131.96069508513997)
+[19:18:41] [Server thread/INFO] (Minecraft) Player118 joined the game
+[19:18:41] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2578ms or 51 ticks behind
+[19:18:43] [Render thread/INFO] (ChunkBuilder) Started 1 worker threads
+[19:18:44] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[19:20:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[19:20:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[19:20:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[19:20:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[19:20:03] [Server thread/INFO] (Minecraft) Player118 lost connection: Disconnected
+[19:20:03] [Server thread/INFO] (Minecraft) Player118 left the game
+[19:20:03] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[19:20:03] [Server thread/INFO] (Minecraft) Stopping server
+[19:20:03] [Server thread/INFO] (Minecraft) Saving players
+[19:20:03] [Server thread/INFO] (Minecraft) Saving worlds
+[19:20:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[19:20:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[19:20:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[19:20:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
+[19:20:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:20:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:20:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[19:20:06] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[19:20:06] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[19:20:07] [Render thread/INFO] (Minecraft) Stopping!
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[19:20:07] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'

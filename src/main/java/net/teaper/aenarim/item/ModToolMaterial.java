@@ -8,7 +8,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    FLINT(MiningLevels.WOOD, 64, 2.5f, 0.0f, 8, () -> Ingredient.ofItems(Items.FLINT) );
+    FLINT(MiningLevels.WOOD, 64, 2f, 0.0f, 12, () -> Ingredient.ofItems(Items.FLINT) );
 
     private final int miningLevel;
     private final int itemDurability;
