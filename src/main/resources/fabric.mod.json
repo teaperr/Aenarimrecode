@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "aenarim",
+  "version": "${version}",
+
+  "name": "Aenarim",
+  "description": "Placeholder Description",
+  "authors": [
+    "Thea (teaper_)"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/aenarim/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.teaper.aenarim.Aenarim"
+    ],
+    "client": [
+      "net.teaper.aenarim.AenarimClient"
+    ]
+  },
+  "mixins": [
+    "aenarim.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
