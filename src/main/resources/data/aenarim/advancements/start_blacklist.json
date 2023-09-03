@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "runonworldgeneration": {
+            "trigger":"minecraft:tick"
+    }
+    },
+    "rewards": {
+    "function": "aenarim:blacklist_items"
+} 
+}
