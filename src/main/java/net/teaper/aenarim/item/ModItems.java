@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
 import net.teaper.aenarim.item.custom.ModHoeItem;
+import net.teaper.aenarim.item.custom.ModSkullArmor;
 
 public class ModItems {
 
@@ -42,13 +43,12 @@ public class ModItems {
     public static final Item BONE_HOE = registerItem("bone_hoe",
             new ModHoeItem(ModToolMaterials.SHARP_BONE, -2.5f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item BONE_HELMET = registerItem("bone_helmet",
-            new ArmorItem(ModArmorMaterials.BONE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new ModSkullArmor(ModArmorMaterials.BONE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
     //woven armour
     public static final Item WOVEN_BRIGANDINE_CHESTPLATE = registerItem("woven_brigandine_chestplate",
             new ArmorItem(ModArmorMaterials.WOVEN, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item WOVEN_BRIGANDINE_LEGGINGS = registerItem("woven_brigandine_leggings",
             new ArmorItem(ModArmorMaterials.WOVEN, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
-
     //adv items start
 
     //adv items end

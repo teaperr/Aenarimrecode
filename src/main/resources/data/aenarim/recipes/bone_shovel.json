@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    " 0 ",
+    "313",
+    " 2 "
   ],
   "key": {
     "0": {
@@ -14,6 +14,9 @@
     },
     "2": {
       "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "aenarim:fibre"
     }
   },
   "result": {

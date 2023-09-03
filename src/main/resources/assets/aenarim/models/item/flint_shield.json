@@ -1,0 +1,14 @@
+{
+  "parent":"fabricshieldlib:item/fabric_shield",
+  "textures":{
+    "shield":"aenarim:item/flint_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "aenarim:item/flint_shield_blocking"
+    }
+  ]
+}

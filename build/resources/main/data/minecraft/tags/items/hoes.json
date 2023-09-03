@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "aenarim:flint_hoe"
+    "aenarim:flint_hoe",
+    "aenarim:bone_hoe"
   ]
 }

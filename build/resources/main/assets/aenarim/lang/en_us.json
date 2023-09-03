@@ -9,6 +9,7 @@
   "item.aenarim.flint_hatchet": "Flint Hatchet",
   "item.aenarim.flint_shovel": "Flint Shovel",
   "item.aenarim.flint_hoe": "Flint Hoe",
+  "item.aenarim.flint_shield": "Flint Shield",
 
   "item.aenarim.bone_shovel": "Bone Shovel",
   "item.aenarim.bone_hoe": "Bone Hoe",
@@ -16,6 +17,7 @@
   "item.aenarim.bone_sword": "Bone Sword",
   "item.aenarim.bone_bow": "Bone Bow",
   "item.aenarim.bone_pickaxe": "Bone Pickaxe",
+  "item.aenarim.bone_helmet": "Skull Helmet",
 
   "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
   "advancements.gather_fibre.title": "A primitive type of string",
