@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "title": {
+      "translate": "advancements.gather_flint.title"
+    },
+    "description": {
+      "translate": "advancements.gather_flint.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gather_flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "aenarim:flint_hatchet",
+      "aenarim:flint_hoe",
+      "aenarim:flint_knife",
+      "aenarim:flint_pickaxe",
+      "aenarim:flint_shovel"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

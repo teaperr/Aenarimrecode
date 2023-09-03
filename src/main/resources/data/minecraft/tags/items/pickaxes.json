@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "aenarim:flint_pickaxe"
+    "aenarim:flint_pickaxe",
+    "aenarim:bone_pickaxe"
   ]
 }

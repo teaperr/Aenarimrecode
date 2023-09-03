@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "aenarim:fibre"
+    },
+    "title": {
+      "translate": "advancements.gather_fibre.title"
+    },
+    "description": {
+      "translate": "advancements.gather_fibre.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gather_fibre": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aenarim:fibre"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "aenarim:string_from_fibre",
+      "aenarim:flint_hatchet",
+      "aenarim:flint_pickaxe",
+      "aenarim:flint_shovel",
+      "aenarim:flint_hoe",
+      "aenarim:drying_fibre"
+    ]
+  },
+  "parent": "aenarim:gather_flint"
+}

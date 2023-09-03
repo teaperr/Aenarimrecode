@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "aenarim:flint_shovel"
+    "aenarim:flint_shovel",
+    "aenarim:bone_shovel"
   ]
 }

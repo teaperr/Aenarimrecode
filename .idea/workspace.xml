@@ -5,8 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-03-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-03-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-03-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/0c6f2d90-05bd-313a-b718-c4c13f65dc1c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/0cad2f47-2665-3067-89f3-6434c639de1f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/3125069d-d602-307c-b8a2-944bd3e356c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/ef82fb01-b598-3553-9c9c-a797489528f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/0c6f2d90-05bd-313a-b718-c4c13f65dc1c.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/0c6f2d90-05bd-313a-b718-c4c13f65dc1c.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/0cad2f47-2665-3067-89f3-6434c639de1f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/0cad2f47-2665-3067-89f3-6434c639de1f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3125069d-d602-307c-b8a2-944bd3e356c2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3125069d-d602-307c-b8a2-944bd3e356c2.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ef82fb01-b598-3553-9c9c-a797489528f6.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ef82fb01-b598-3553-9c9c-a797489528f6.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/0c6f2d90-05bd-313a-b718-c4c13f65dc1c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/0cad2f47-2665-3067-89f3-6434c639de1f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/3125069d-d602-307c-b8a2-944bd3e356c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/ef82fb01-b598-3553-9c9c-a797489528f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModArmorMaterials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow_pulling_0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow_pulling_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow_pulling_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_helmet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_sword.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sharp_bone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/woven_brigandine_chestplate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/woven_brigandine_leggings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/woven_layer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/woven_layer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/advancements/bone_age.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/advancements/gather_fibre.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/advancements/gather_flint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/advancements/gather_sharp_bone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/acacia_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/acacia_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/birch_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/birch_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/jungle_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/jungle_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/spruce_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/spruce_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_acacia_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_acacia_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_birch_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_birch_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_crimson_stem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_crimson_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_dark_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_dark_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_jungle_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_jungle_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_spruce_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_spruce_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_warped_stem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/stripped_warped_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/warped_stem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/warped_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/net.teaper.Aenarimexp.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/net.teaper.Aenarimexp.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/net.teaper.Aenarimexp.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/net.teaper.Aenarimexp.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModToolMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModHoeItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModHoeItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/woven_chestplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/woven_leggings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_axe_recipe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_hoe_recipe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_pickaxe_recipe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_shovel_recipe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_sword_recipe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_flint_hatchet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_flint_hoe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_flint_knife.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_flint_pickaxe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_flint_shovel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_woven_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/craft_woven_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/advancements/story/upgrade_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/advancements/story/upgrade_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/acacia_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/birch_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/dark_oak_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/jungle_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/oak_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/loot_tables/blocks/spruce_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" afterDir="false" />
@@ -34,13 +142,6 @@
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-02-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-02-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -63,7 +164,35 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModHoeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModHoeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/woven_chestplate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/woven_brigandine_chestplate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/woven_leggings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/woven_brigandine_leggings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_axe_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_hoe_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_pickaxe_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_shovel_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_sword_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_flint_hatchet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_hatchet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_flint_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_flint_knife.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_knife.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_flint_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_flint_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_woven_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/woven_brigandine_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/craft_woven_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/woven_brigandine_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/advancements/story/upgrade_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/advancements/story/upgrade_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/acacia_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/birch_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/dark_oak_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/jungle_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/oak_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/spruce_leaves.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/axes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/axes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/hoes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/hoes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/pickaxes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/pickaxes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/shovels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/shovels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/swords.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/swords.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +255,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item",
+    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/minecraft/textures/models/armor",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -135,11 +264,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\minecraft\textures\models\armor" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\item" />
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\advancements" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\loot_tables\blocks" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes" />
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft" />
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\loot_tables" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim" />

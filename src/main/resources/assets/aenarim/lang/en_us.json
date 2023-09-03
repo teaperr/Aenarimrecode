@@ -1,9 +1,30 @@
 {
   "item.aenarim.dried_fibre": "Dried Fibre",
   "item.aenarim.fibre": "Fibre",
+  "item.aenarim.woven_brigandine_leggings": "Woven Brigandine Leggings",
+  "item.aenarim.woven_brigandine_chestplate": "Woven Brigandine Chestplate",
+
   "item.aenarim.flint_knife": "Flint Knife",
   "item.aenarim.flint_pickaxe": "Flint Pickaxe",
   "item.aenarim.flint_hatchet": "Flint Hatchet",
   "item.aenarim.flint_shovel": "Flint Shovel",
-  "item.aenarim.flint_hoe": "Flint Hoe"
+  "item.aenarim.flint_hoe": "Flint Hoe",
+
+  "item.aenarim.bone_shovel": "Bone Shovel",
+  "item.aenarim.bone_hoe": "Bone Hoe",
+  "item.aenarim.bone_axe": "Bone Axe",
+  "item.aenarim.bone_sword": "Bone Sword",
+  "item.aenarim.bone_bow": "Bone Bow",
+  "item.aenarim.bone_pickaxe": "Bone Pickaxe",
+  "item.aenarim.bone_helmet": "Skull Helmet",
+
+  "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
+  "advancements.gather_fibre.title": "A primitive type of string",
+  "advancements.gather_flint.title": "Something sharp",
+  "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
+  "advancements.bone_age.title": "Bone Age",
+  "advancements.gather_sharp_bone.title": "Ow! Pointy!",
+  "item.aenarim.sharp_bone": "Sharp Bone",
+  "advancements.gather_sharp_bone.descr": "Get a sharp bone from a skeleton, which can be used to make slightly better tools",
+  "advancements.bone_age.descr": "Craft a tool or armour piece made of bone."
 }
