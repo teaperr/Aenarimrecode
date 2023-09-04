@@ -1,8 +1,6 @@
-/*
- * Decompiled with CFR 0.2.0 (FabricMC d28b102d).
- */
 package net.teaper.aenarim.item.custom;
 
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
@@ -12,14 +10,17 @@ import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
+import java.util.List;
 import java.util.function.Predicate;
 
-public class ModBowItemSlow extends RangedWeaponItem implements Vanishable {
+public class ModBowItemSlow extends BowItem implements Vanishable {
     public static final int field_30855 = 20;
     public static final int RANGE = 25;
 
@@ -44,7 +45,7 @@ public class ModBowItemSlow extends RangedWeaponItem implements Vanishable {
         if (itemStack.isEmpty()) {
             itemStack = new ItemStack(Items.ARROW);
         }
-        if ((double)(f = BowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
+        if ((double)(f = ModBowItemSlow.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
             return;
         }
         boolean bl3 = bl2 = bl && itemStack.isOf(Items.ARROW);
@@ -53,7 +54,7 @@ public class ModBowItemSlow extends RangedWeaponItem implements Vanishable {
             int j;
             ArrowItem arrowItem = (ArrowItem)(itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
             PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, itemStack, playerEntity);
-            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 7.0f, 0.5f);
+            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 4.5f, 0.5f);
             if (f == 1.0f) {
                 persistentProjectileEntity.setCritical(true);
             }
@@ -90,7 +91,7 @@ public class ModBowItemSlow extends RangedWeaponItem implements Vanishable {
 
     @Override
     public int getMaxUseTime(ItemStack stack) {
-        return 72000;
+        return 180000;
     }
 
     @Override
@@ -118,6 +119,11 @@ public class ModBowItemSlow extends RangedWeaponItem implements Vanishable {
     @Override
     public int getRange() {
         return 25;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(Text.translatable("item.aenarim.bone_bow.tooltip").formatted(Formatting.YELLOW));
     }
 }
 

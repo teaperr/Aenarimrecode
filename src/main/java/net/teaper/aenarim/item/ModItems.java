@@ -6,6 +6,7 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
+import net.teaper.aenarim.item.custom.ModTooltip;
 import net.teaper.aenarim.item.custom.ModBowItemSlow;
 import net.teaper.aenarim.item.custom.ModHoeItem;
 import net.teaper.aenarim.item.custom.ModSkullArmor;
@@ -19,6 +20,10 @@ public class ModItems {
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item SHARP_BONE = registerItem("sharp_bone",
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    //food items
+    public static final Item SUGAR_BREAD = registerItem("sugar_bread",
+            new ModTooltip(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUGAR_BREAD)));
+
 
     //tool items start
         //flint tools

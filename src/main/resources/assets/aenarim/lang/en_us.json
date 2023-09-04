@@ -18,7 +18,10 @@
   "item.aenarim.bone_pickaxe": "Bone Pickaxe",
   "item.aenarim.bone_helmet": "Skull Helmet",
   "item.aenarim.bone_bow": "Skeleton's Bow",
-  "item.aenarim.bone_bow.tooltip": "A slow but powerful bow imbued with the souls of skeletons.",
+  "item.aenarim.bone_bow.tooltip": "A slow but powerful bow imbued with the souls of skeletons",
+
+  "item.aenarim.sugar_bread": "Sugar Bread",
+  "item.aenarim.sugar_bread.tooltip": "Heals 4 health points",
 
   "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
   "advancements.gather_fibre.title": "A primitive type of string",

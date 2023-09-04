@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     WOVEN("woven", 8, new int[]{1, 3, 4, 1}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.5f, () -> Ingredient.ofItems(ModItems.DRIED_FIBRE)),
-    BONE("bone", 15, new int[]{2, 5, 6, 6}, 8,
+    BONE("bone", 15, new int[]{2, 5, 6, 3}, 8,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.SHARP_BONE));
 
     private static final int[] BASE_DURABILITY;
