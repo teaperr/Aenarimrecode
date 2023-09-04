@@ -1,3 +1,3 @@
 clear @a #aenarim:listtools
 clear @a #aenarim:listarmors
-schedule function aenarim:blacklist_items_loop 0.5s
+schedule function aenarim:blacklist_items 10t

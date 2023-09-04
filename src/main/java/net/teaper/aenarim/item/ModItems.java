@@ -6,6 +6,7 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
+import net.teaper.aenarim.item.custom.ModBowItemSlow;
 import net.teaper.aenarim.item.custom.ModHoeItem;
 import net.teaper.aenarim.item.custom.ModSkullArmor;
 
@@ -31,6 +32,7 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.FLINT, 1.5f, -2.4f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new ModHoeItem(ModToolMaterials.FLINT, -1, -2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+
         //bone tools
     public static final Item BONE_SWORD = registerItem("bone_sword",
             new SwordItem(ModToolMaterials.SHARP_BONE, (int) 4f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
@@ -44,6 +46,8 @@ public class ModItems {
             new ModHoeItem(ModToolMaterials.SHARP_BONE, -2.5f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item BONE_HELMET = registerItem("bone_helmet",
             new ModSkullArmor(ModArmorMaterials.BONE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item BONE_BOW = registerItem("bone_bow",
+            new ModBowItemSlow(new FabricItemSettings().group(ItemGroup.COMBAT).maxDamage(400)));
     //woven armour
     public static final Item WOVEN_BRIGANDINE_CHESTPLATE = registerItem("woven_brigandine_chestplate",
             new ArmorItem(ModArmorMaterials.WOVEN, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));

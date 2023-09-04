@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ModSkullArmor extends ModArmorItem implements IAnimatable {
-    private AnimationFactory factory = GeckoLibUtil.createFactory(this);
+    private final AnimationFactory factory = GeckoLibUtil.createFactory(this);
     public ModSkullArmor(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }

@@ -15,9 +15,10 @@
   "item.aenarim.bone_hoe": "Bone Hoe",
   "item.aenarim.bone_axe": "Bone Axe",
   "item.aenarim.bone_sword": "Bone Sword",
-  "item.aenarim.bone_bow": "Bone Bow",
   "item.aenarim.bone_pickaxe": "Bone Pickaxe",
   "item.aenarim.bone_helmet": "Skull Helmet",
+  "item.aenarim.bone_bow": "Skeleton's Bow",
+  "item.aenarim.bone_bow.tooltip": "A slow but powerful bow imbued with the souls of skeletons.",
 
   "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
   "advancements.gather_fibre.title": "A primitive type of string",
