@@ -126,4 +126,3 @@ public class ModBowItemSlow extends BowItem implements Vanishable {
         tooltip.add(Text.translatable("item.aenarim.bone_bow.tooltip").formatted(Formatting.YELLOW));
     }
 }
-

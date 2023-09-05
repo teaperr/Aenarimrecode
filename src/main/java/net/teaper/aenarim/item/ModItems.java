@@ -6,10 +6,10 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
-import net.teaper.aenarim.item.custom.ModTooltip;
 import net.teaper.aenarim.item.custom.ModBowItemSlow;
 import net.teaper.aenarim.item.custom.ModHoeItem;
 import net.teaper.aenarim.item.custom.ModSkullArmor;
+import net.teaper.aenarim.item.custom.ModTooltip;
 
 public class ModItems {
 
