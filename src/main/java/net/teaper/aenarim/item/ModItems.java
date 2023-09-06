@@ -58,6 +58,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.WOVEN, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item WOVEN_BRIGANDINE_LEGGINGS = registerItem("woven_brigandine_leggings",
             new ArmorItem(ModArmorMaterials.WOVEN, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    //sicilite items
+    public static final Item SICILITE_CRYSTAL = registerItem("sicilite_crystal",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     //adv items start
 
     //adv items end
