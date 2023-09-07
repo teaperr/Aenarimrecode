@@ -23,6 +23,15 @@ repositories {
 		name = 'GeckoLib'
 		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
 	}
+	//maven {
+	//	url = 'https://jitpack.io'
+	//}
+	//maven {
+	//	url "https://maven.shedaniel.me/"
+	//}
+	//maven {
+	//	url "https://maven.terraformersmc.com/releases/"
+	//}
 }
 
 dependencies {
@@ -44,6 +53,11 @@ dependencies {
 	modImplementation("maven.modrinth:alloy-forgery:${project.alloyforgery_version}")
 	modImplementation "io.wispforest:owo-lib:${project.owo_version}"
 	include "io.wispforest:owo-sentinel:${project.owo_version}"
+
+	//fabric shield lib
+	//dependencies {
+	//	implementation 'com.github.CrimsonDawn45:Fabric-Shield-Lib:v1.7-1.19.2'
+	//}
 }
 
 base {

@@ -37,6 +37,7 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.FLINT, 1.5f, -2.4f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new ModHoeItem(ModToolMaterials.FLINT, -1, -2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+        //shields
 
         //bone tools
     public static final Item BONE_SWORD = registerItem("bone_sword",
@@ -61,6 +62,9 @@ public class ModItems {
     //sicilite items
     public static final Item SICILITE_CRYSTAL = registerItem("sicilite_crystal",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SICILITE_INGOT = registerItem("sicilite_ingot",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
     //adv items start
 
     //adv items end

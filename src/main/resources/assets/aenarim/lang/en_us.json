@@ -24,6 +24,7 @@
   "item.aenarim.sicilite_block": "Sicilite Block",
   "item.aenarim.sicilite_ore": "Sicilite Ore",
   "item.aenarim.deepslate_sicilite_ore": "Deepslate Sicilite Ore",
+  "item.aenarim.sicilite_ingot": "Sicilite Ingot",
 
   "item.aenarim.sugar_bread": "Sugar Bread",
   "item.aenarim.sugar_bread.tooltip": "Heals 4 health points",
@@ -36,5 +37,7 @@
   "advancements.gather_sharp_bone.title": "Ow! Pointy!",
   "item.aenarim.sharp_bone": "Sharp Bone",
   "advancements.gather_sharp_bone.descr": "Get a sharp bone from a skeleton, which can be used to make slightly better tools",
+  "item.aenarim.pink_soap.title": "Pink Soap",
+  "advancements.pink_soap.descr": "A fragile material by itself, but strengthens materials forged with it",
   "advancements.bone_age.descr": "Craft a tool or armour piece made of bone."
 }
