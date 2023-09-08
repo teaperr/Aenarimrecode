@@ -41,7 +41,7 @@ public class ModItems {
 
         //bone tools
     public static final Item BONE_SWORD = registerItem("bone_sword",
-            new SwordItem(ModToolMaterials.SHARP_BONE, (int) 4f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new SwordItem(ModToolMaterials.SHARP_BONE, (int) 2f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item BONE_AXE = registerItem("bone_axe",
             new AxeItem(ModToolMaterials.SHARP_BONE, 6.5f, -3.6f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item BONE_PICKAXE = registerItem("bone_pickaxe",
@@ -64,7 +64,18 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item SICILITE_INGOT = registerItem("sicilite_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-
+    public static final Item SICILITE_SWORD = registerItem("sicilite_sword",
+            new SwordItem(ModToolMaterials.SICILITE, (int) 3f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SICILITE_DAGGER = registerItem("sicilite_dagger",
+            new SwordItem(ModToolMaterials.SICILITE, (int) 1.5f, 1f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SICILITE_AXE = registerItem("sicilite_axe",
+            new AxeItem(ModToolMaterials.SICILITE, 5f, -3.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item SICILITE_PICKAXE = registerItem("sicilite_pickaxe",
+            new PickaxeItem(ModToolMaterials.SICILITE, (int) -1f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item SICILITE_SHOVEL = registerItem("sicilite_shovel",
+            new ShovelItem(ModToolMaterials.SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item SICILITE_HOE = registerItem("sicilite_hoe",
+            new ModHoeItem(ModToolMaterials.SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     //adv items start
 
     //adv items end

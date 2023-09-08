@@ -16,6 +16,7 @@ public class ModTooltip extends Item {
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(Text.translatable("item.aenarim.crystal_dagger.tooltip").formatted(Formatting.ITALIC, Formatting.YELLOW));
         tooltip.add(Text.translatable("item.aenarim.sugar_bread.tooltip").formatted(Formatting.ITALIC));
     }
 }

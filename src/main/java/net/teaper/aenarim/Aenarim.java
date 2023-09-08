@@ -15,6 +15,7 @@ public class Aenarim implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
 	}
 }

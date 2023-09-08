@@ -8,8 +8,13 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    FLINT(MiningLevels.WOOD, 64, 3f, 1.0f, 5, () -> Ingredient.ofItems(Items.FLINT)),
-    SHARP_BONE(MiningLevels.STONE, 250, 4.5f, 2.5f, 12, () -> Ingredient.ofItems(ModItems.SHARP_BONE));
+    FLINT(MiningLevels.WOOD, 64, 3f, 1.0f,
+            5, () -> Ingredient.ofItems(Items.FLINT)),
+    SHARP_BONE(MiningLevels.STONE, 250, 4.5f, 2.5f,
+            12, () -> Ingredient.ofItems(ModItems.SHARP_BONE)),
+    SICILITE(MiningLevels.IRON, 150, 5.5f, 2.0f,
+            18, () -> Ingredient.ofItems(ModItems.SICILITE_INGOT));
+
 
     private final int miningLevel;
     private final int itemDurability;
