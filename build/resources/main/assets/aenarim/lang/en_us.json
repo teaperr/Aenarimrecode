@@ -31,6 +31,8 @@
   "item.aenarim.sicilite_axe": "Crystal Axe",
   "item.aenarim.sicilite_sword": "Crystal Sword",
   "item.aenarim.sicilite_pickaxe": "Crystal Pickaxe",
+  "item.aenarim.sicilite_dagger": "Crystal Dagger",
+  "item.aenarim.sicilite_dagger.tooltip": "The blade is made from purified sicilite.",
 
   "item.aenarim.sugar_bread": "Sugar Bread",
   "item.aenarim.sugar_bread.tooltip": "Heals 4 health points",
