@@ -1,0 +1,16 @@
+{
+  "aenarim:start_blacklist": {
+    "criteria": {
+      "runonworldgeneration": "2023-09-09 00:15:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lush_caves": "2023-09-09 00:15:39 +0100",
+      "minecraft:old_growth_birch_forest": "2023-09-09 00:18:00 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

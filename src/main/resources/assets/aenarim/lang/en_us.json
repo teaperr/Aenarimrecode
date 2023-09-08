@@ -34,6 +34,15 @@
   "item.aenarim.sicilite_dagger": "Crystal Dagger",
   "item.aenarim.sicilite_dagger.tooltip": "The blade is made from purified sicilite.",
 
+  "item.aenarim.ferro_sicilite_ingot": "Ferro-Sicilite Ingot",
+  "item.aenarim.ferro_sicilite_shovel": "Ferro-Sicilite Shovel",
+  "item.aenarim.ferro_sicilite_hoe": "Ferro-Sicilite Hoe",
+  "item.aenarim.ferro_sicilite_axe": "Ferro-Sicilite Axe",
+  "item.aenarim.ferro_sicilite_sword": "Ferro-Sicilite Sword",
+  "item.aenarim.ferro_sicilite_pickaxe": "Ferro-Sicilite Pickaxe",
+  "block.aenarim.ferro_sicilite_block": "Ferro-Sicilite Block",
+
+
   "item.aenarim.sugar_bread": "Sugar Bread",
   "item.aenarim.sugar_bread.tooltip": "Heals 4 health points",
 

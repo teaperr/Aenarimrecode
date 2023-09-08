@@ -14,15 +14,18 @@ import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
 
 public class ModBlocks {
+    //sicilite
     public static final Block SICILITE_BLOCK = registerBlock("sicilite_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
-
     public static final Block SICILITE_ORE = registerBlock("sicilite_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool(),
                     UniformIntProvider.create(1, 4)), ItemGroup.BUILDING_BLOCKS);
     public static final Block DEEPSLATE_SICILITE_ORE = registerBlock("deepslate_sicilite_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool(),
                     UniformIntProvider.create(2, 5)), ItemGroup.BUILDING_BLOCKS);
+    //ferro sicilite
+    public static final Block FERRO_SICILITE_BLOCK = registerBlock("ferro_sicilite_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aenarim:block/ferro_sicilite_block"
+  }
+}

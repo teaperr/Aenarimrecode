@@ -5,29 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-08-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-08-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-08-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/80fb4b31-a429-3891-a185-827168eac297.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/ac42e7c5-bf90-3ead-ba50-c551df161044.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/80fb4b31-a429-3891-a185-827168eac297.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/80fb4b31-a429-3891-a185-827168eac297.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/ac42e7c5-bf90-3ead-ba50-c551df161044.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/world/feature/ModConfiguredFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/world/feature/ModPlacedFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/world/gen/ModOreGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/b0121b71-1aec-310d-8ee8-525ebe3fec09.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/c0f25d98-743c-364e-a2cd-82567612d750.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/b0121b71-1aec-310d-8ee8-525ebe3fec09.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/b0121b71-1aec-310d-8ee8-525ebe3fec09.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/c0f25d98-743c-364e-a2cd-82567612d750.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/c0f25d98-743c-364e-a2cd-82567612d750.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/b0121b71-1aec-310d-8ee8-525ebe3fec09.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/c0f25d98-743c-364e-a2cd-82567612d750.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_00.01.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_00.16.51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/blockstates/ferro_sicilite_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/ferro_sicilite_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModTooltip.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModTooltip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/block/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModToolMaterials.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModToolMaterials.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" afterDir="false" />
@@ -56,6 +62,12 @@
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-08-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-08-6.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -63,6 +75,7 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" afterDir="false" />
@@ -70,16 +83,20 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/Aenarim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/Aenarim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModTooltip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModTooltip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModToolMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +161,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item",
+    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/data/aenarim/loot_tables",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -153,11 +170,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\loot_tables" />
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\blockstates" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\item" />
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes" />
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\advancements" />
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\textures\entity" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\block" />
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\alloy_forge" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\alloy_forge" />

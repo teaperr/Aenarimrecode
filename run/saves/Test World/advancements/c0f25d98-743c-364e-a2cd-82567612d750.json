@@ -1,0 +1,58 @@
+{
+  "aenarim:start_blacklist": {
+    "criteria": {
+      "runonworldgeneration": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lush_caves": "2023-09-08 23:59:50 +0100",
+      "minecraft:old_growth_birch_forest": "2023-09-09 00:02:02 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2023-09-08 23:59:44 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

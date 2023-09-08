@@ -13,8 +13,9 @@ public enum ModToolMaterials implements ToolMaterial {
     SHARP_BONE(MiningLevels.STONE, 250, 4.5f, 2.5f,
             12, () -> Ingredient.ofItems(ModItems.SHARP_BONE)),
     SICILITE(MiningLevels.IRON, 150, 5.5f, 2.0f,
-            18, () -> Ingredient.ofItems(ModItems.SICILITE_INGOT));
-
+            18, () -> Ingredient.ofItems(ModItems.SICILITE_INGOT)),
+    FERRO_SICILITE(MiningLevels.IRON, 1100, 7f, 3f,
+            12, () -> Ingredient.ofItems(ModItems.FERRO_SICILITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

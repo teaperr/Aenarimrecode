@@ -1,0 +1,27 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "aenarim:sicilite_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "output": {
+    "id": "aenarim:ferro_sicilite_ingot",
+    "count": 2
+  },
+  "overrides": {
+    "2": {
+      "id": "aenarim:ferro_sicilite_ingot",
+      "count": 3
+    },
+    "3+": {
+      "id": "aenarim:ferro_sicilite_ingot",
+      "count": 4
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 5
+}
