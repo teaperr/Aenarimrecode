@@ -1,0 +1,52 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "aenarim:item/snail_cat"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -0.5, -3.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, -0.5, -3.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, -85, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, 85, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"head": {
+			"translation": [0, 10.25, 0]
+		}
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "aenarim:item/snail_cat_pulling_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.65
+			},
+			"model": "aenarim:item/snail_cat_pulling_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9
+			},
+			"model": "aenarim:item/snail_cat_pulling_2"
+		}
+	]
+}

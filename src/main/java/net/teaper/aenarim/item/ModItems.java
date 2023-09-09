@@ -10,6 +10,10 @@ import net.teaper.aenarim.item.custom.*;
 
 public class ModItems {
 
+    // :3
+    public static final Item SNAIL_CAT = registerItem("snail_cat",
+            new SnailCat(new FabricItemSettings().maxDamage(9999).fireproof()));
+
     //material type items start
     public static final Item FIBRE = registerItem("fibre",
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));

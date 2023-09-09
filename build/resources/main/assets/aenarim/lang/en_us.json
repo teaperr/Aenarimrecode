@@ -1,4 +1,7 @@
 {
+  "item.aenarim.snail_cat": "Snail Cat",
+  "item.aenarim.snail_cat.tooltip": "You shouldn't have this.",
+
   "item.aenarim.dried_fibre": "Dried Fibre",
   "item.aenarim.fibre": "Fibre",
   "item.aenarim.woven_brigandine_leggings": "Woven Brigandine Leggings",
@@ -34,6 +37,11 @@
   "item.aenarim.sicilite_dagger": "Crystal Dagger",
   "item.aenarim.sicilite_dagger.tooltip": "The blade is made from purified sicilite.",
   "item.aenarim.sicilite_nugget": "Sicilite Nugget",
+  "item.aenarim.sicilite_helmet": "Sicilite Helmet",
+  "item.aenarim.sicilite_chestplate": "Sicilite Chestplate",
+  "item.aenarim.sicilite_leggings": "Sicilite Leggings",
+  "item.aenarim.sicilite_boots": "Sicilite Boots",
+
 
   "item.aenarim.ferro_sicilite_ingot": "Ferro-Sicilite Ingot",
   "item.aenarim.ferro_sicilite_shovel": "Ferro-Sicilite Shovel",

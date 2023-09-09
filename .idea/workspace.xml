@@ -5,44 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/2638860b-4718-3fd6-a709-60419a2cda4a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/34692304-57b2-31f8-a84c-d22c6ff753f7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/3fff7d86-24d6-33b1-8ce1-9423a13c7c89.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/a4081500-9e8c-36ae-a97c-f165f9882cba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/b9f5e998-520a-3fa2-8208-0c20f22aa20f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/2638860b-4718-3fd6-a709-60419a2cda4a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/2638860b-4718-3fd6-a709-60419a2cda4a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/34692304-57b2-31f8-a84c-d22c6ff753f7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3fff7d86-24d6-33b1-8ce1-9423a13c7c89.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3fff7d86-24d6-33b1-8ce1-9423a13c7c89.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/a4081500-9e8c-36ae-a97c-f165f9882cba.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/a4081500-9e8c-36ae-a97c-f165f9882cba.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/b9f5e998-520a-3fa2-8208-0c20f22aa20f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/b9f5e998-520a-3fa2-8208-0c20f22aa20f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/2638860b-4718-3fd6-a709-60419a2cda4a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/34692304-57b2-31f8-a84c-d22c6ff753f7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/3fff7d86-24d6-33b1-8ce1-9423a13c7c89.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/a4081500-9e8c-36ae-a97c-f165f9882cba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/b9f5e998-520a-3fa2-8208-0c20f22aa20f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_17.09.29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_17.29.56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_leggings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/1dd34f6b-f553-3906-92e2-e13f78ae2b51.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/3e1fbeae-13f8-3fbb-9842-63bc739da918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/1dd34f6b-f553-3906-92e2-e13f78ae2b51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/1dd34f6b-f553-3906-92e2-e13f78ae2b51.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3e1fbeae-13f8-3fbb-9842-63bc739da918.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/3e1fbeae-13f8-3fbb-9842-63bc739da918.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/1dd34f6b-f553-3906-92e2-e13f78ae2b51.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/3e1fbeae-13f8-3fbb-9842-63bc739da918.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/SnailCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/snail_cat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minecraft/textures/models/armor/sicilite_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minecraft/textures/models/armor/sicilite_layer_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minecraft/textures/models/armor/sicilite_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/minecraft/textures/models/armor/sicilite_layer_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_boots.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_boots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_chestplate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_chestplate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_leggings.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/sicilite_leggings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/ferro_sicilite_tools/iron_boots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/ferro_sicilite_tools/iron_chestplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/ferro_sicilite_tools/iron_helmet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/ferro_sicilite_tools/iron_leggings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" afterDir="false" />
@@ -85,8 +89,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/4e36b848-09be-34a2-9bc7-7017a804cbc3.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/4e36b848-09be-34a2-9bc7-7017a804cbc3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" afterDir="false" />
@@ -95,23 +101,19 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/4e36b848-09be-34a2-9bc7-7017a804cbc3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4e36b848-09be-34a2-9bc7-7017a804cbc3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/4e36b848-09be-34a2-9bc7-7017a804cbc3.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4e36b848-09be-34a2-9bc7-7017a804cbc3.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/4e36b848-09be-34a2-9bc7-7017a804cbc3.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/stats/4e36b848-09be-34a2-9bc7-7017a804cbc3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_boots.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_boots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_chestplate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_chestplate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_leggings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_leggings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_boots.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_chestplate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_helmet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_leggings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +181,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/data/aenarim/recipes/sicilite_tools",
+    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -188,8 +190,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\item" />
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\ferro_sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\advancements\story" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\tags\blocks\mineable" />
@@ -200,6 +202,9 @@
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\ferro_sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\bone_tools" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.teaper.aenarim.item.custom" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Aenarimexp [runClient]">

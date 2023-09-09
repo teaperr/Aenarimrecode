@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "aenarim:start_blacklist": {
+    "criteria": {
+      "runonworldgeneration": "2023-09-09 21:12:54 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2023-09-03 20:01:01 +0100"
@@ -85,7 +91,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:stony_shore": "2023-09-03 20:01:02 +0100"
+      "minecraft:stony_shore": "2023-09-03 20:01:02 +0100",
+      "minecraft:lush_caves": "2023-09-09 21:12:59 +0100"
     },
     "done": false
   },

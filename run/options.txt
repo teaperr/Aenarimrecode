@@ -114,7 +114,7 @@ key_key.hotbar.9:key.keyboard.2
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_key.modmenu.open_menu:key.keyboard.unknown
-soundCategory_master:0.54304636
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
