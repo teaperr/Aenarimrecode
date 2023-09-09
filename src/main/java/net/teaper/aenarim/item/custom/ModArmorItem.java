@@ -15,10 +15,13 @@ import net.teaper.aenarim.item.ModArmorMaterials;
 import java.util.Map;
 
 public class ModArmorItem extends ArmorItem {
+    private boolean showParticles(){
+        return false;
+    }
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorMaterials.BONE,
-                            new StatusEffectInstance(StatusEffects.LUCK, 0, 1)).build();
+                    .put(ModArmorMaterials.FERRO_SICILITE,
+                            new StatusEffectInstance(StatusEffects.HASTE, 5, 0)).build();
 
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);

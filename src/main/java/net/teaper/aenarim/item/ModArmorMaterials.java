@@ -13,7 +13,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     WOVEN("woven", 8, new int[]{1, 3, 4, 1}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.5f, () -> Ingredient.ofItems(ModItems.DRIED_FIBRE)),
     BONE("bone", 15, new int[]{2, 5, 6, 3}, 8,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.SHARP_BONE));
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.SHARP_BONE)),
+    FERRO_SICILITE("ferro_sicilite", 16, new int[]{2, 2, 4, 2}, 8,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(ModItems.SICILITE_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

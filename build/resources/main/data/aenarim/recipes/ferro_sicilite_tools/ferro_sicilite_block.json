@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "aenarim:ferro_sicilite_ingot"
+    }
+  },
+  "result": {
+    "item": "aenarim:ferro_sicilite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "aenarim:start_blacklist": {
+    "criteria": {
+      "runonworldgeneration": "2023-09-09 15:35:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-09-09 15:35:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-09-09 15:35:25 +0100"
+    },
+    "done": true
+  },
+  "aenarim:gather_sharp_bone": {
+    "criteria": {
+      "gather_sharp_bone": "2023-09-09 15:35:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lush_caves": "2023-09-09 15:35:30 +0100",
+      "minecraft:old_growth_birch_forest": "2023-09-09 15:35:57 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

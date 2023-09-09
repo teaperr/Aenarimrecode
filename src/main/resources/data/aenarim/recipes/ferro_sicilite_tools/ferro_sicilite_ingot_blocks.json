@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aenarim:ferro_sicilite_block"
+    }
+  ],
+  "result": {
+    "item": "aenarim:ferro_sicilite_ingot",
+    "count": 9
+  }
+}

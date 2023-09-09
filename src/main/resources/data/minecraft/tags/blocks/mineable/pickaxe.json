@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "aenarim:sicilite_block",
+    "aenarim:ferro_sicilite_block",
+    "aenarim:sicilite_ore",
+    "aenarim:deepslate_sicilite_ore"
+  ]
+}

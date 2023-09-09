@@ -6,10 +6,7 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
-import net.teaper.aenarim.item.custom.ModBowItemSlow;
-import net.teaper.aenarim.item.custom.ModHoeItem;
-import net.teaper.aenarim.item.custom.ModSkullArmor;
-import net.teaper.aenarim.item.custom.ModTooltip;
+import net.teaper.aenarim.item.custom.*;
 
 public class ModItems {
 
@@ -76,11 +73,13 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item SICILITE_HOE = registerItem("sicilite_hoe",
             new ModHoeItem(ModToolMaterials.SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item SICILITE_NUGGET = registerItem("sicilite_nugget",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     //ferro-sicilite items
     public static final Item FERRO_SICILITE_INGOT = registerItem("ferro_sicilite_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item FERRO_SICILITE_SWORD = registerItem("ferro_sicilite_sword",
-            new SwordItem(ModToolMaterials.FERRO_SICILITE, (int) 3f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new SwordItem(ModToolMaterials.FERRO_SICILITE, (int) 2f, -2.4f, new FabricItemSettings().group(ItemGroup.COMBAT)));
        public static final Item FERRO_SICILITE_AXE = registerItem("ferro_sicilite_axe",
             new AxeItem(ModToolMaterials.FERRO_SICILITE, 5f, -3.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FERRO_SICILITE_PICKAXE = registerItem("ferro_sicilite_pickaxe",
@@ -89,7 +88,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.FERRO_SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FERRO_SICILITE_HOE = registerItem("ferro_sicilite_hoe",
             new ModHoeItem(ModToolMaterials.FERRO_SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
-
+    public static final Item FERRO_SICILITE_NUGGET = registerItem("ferro_sicilite_nugget",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item FERRO_SICILITE_HELMET = registerItem("ferro_sicilite_helmet",
+            new ModArmorItem(ModArmorMaterials.FERRO_SICILITE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item FERRO_SICILITE_CHESTPLATE = registerItem("ferro_sicilite_chestplate",
+            new ArmorItem(ModArmorMaterials.FERRO_SICILITE, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item FERRO_SICILITE_LEGGINGS = registerItem("ferro_sicilite_leggings",
+            new ArmorItem(ModArmorMaterials.FERRO_SICILITE, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item FERRO_SICILITE_BOOTS = registerItem("ferro_sicilite_boots",
+            new ArmorItem(ModArmorMaterials.FERRO_SICILITE, EquipmentSlot.FEET, new FabricItemSettings().group(ItemGroup.COMBAT)));
     //adv items start
 
     //adv items end
