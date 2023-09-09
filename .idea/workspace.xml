@@ -5,113 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-09-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/4d37c633-0973-3240-a4d3-ce7d81f39110.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/80366950-5482-38de-842a-c4cdd5802ec2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/e6106110-0611-3c88-99d4-92770daab422.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/fbd6852d-44fe-3331-a1df-a34f42de9037.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/fe7f1e59-f19d-3f45-941b-fff40e9a414c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4d37c633-0973-3240-a4d3-ce7d81f39110.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/4d37c633-0973-3240-a4d3-ce7d81f39110.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/80366950-5482-38de-842a-c4cdd5802ec2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/80366950-5482-38de-842a-c4cdd5802ec2.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/e6106110-0611-3c88-99d4-92770daab422.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/e6106110-0611-3c88-99d4-92770daab422.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fbd6852d-44fe-3331-a1df-a34f42de9037.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fbd6852d-44fe-3331-a1df-a34f42de9037.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fe7f1e59-f19d-3f45-941b-fff40e9a414c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fe7f1e59-f19d-3f45-941b-fff40e9a414c.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/4d37c633-0973-3240-a4d3-ce7d81f39110.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/80366950-5482-38de-842a-c4cdd5802ec2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/e6106110-0611-3c88-99d4-92770daab422.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/fbd6852d-44fe-3331-a1df-a34f42de9037.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/fe7f1e59-f19d-3f45-941b-fff40e9a414c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_13.56.21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-09-09_14.49.45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/ferro_sicilite_nugget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sicilite_nugget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_boots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_chestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_leggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_nugget.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_nugget.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/ferro_sicilite_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/ferro_sicilite_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_ingot_blocks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_nugget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/iron_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_ingot_blocks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_nugget.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/advancements/story/iron_tools.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/advancements/story/mine_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_stone_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sicilite_boots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sicilite_chestplate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sicilite_helmet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/sicilite_leggings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_chestplate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/sicilite_leggings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/sicilite_layer_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModArmorMaterials.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModArmorMaterials.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/block/ferro_sicilite_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/block/ferro_sicilite_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_axe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_hoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_hoe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_ingot.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_ingot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_pickaxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_pickaxe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_shovel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_shovel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/ferro_sicilite_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/loot_tables/deepslate_sicilite_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/loot_tables/ferro_sicilite_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/loot_tables/sicilite_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/loot_tables/sicilite_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_axe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_bow_smithing.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_helmet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_hoe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_shovel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/bone_sword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/flint_hatchet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/flint_hoe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/flint_knife.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/flint_pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/flint_shovel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_axe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_dagger.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_hoe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_shovel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/aenarim/recipes/sicilite_sword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModArmorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModArmorItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-gui-2.10.5-99ef2afbe1acdb99.jar" afterDir="false" />
@@ -141,6 +57,12 @@
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-09-09-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-09-09-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -155,7 +77,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" afterDir="false" />
@@ -168,37 +89,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModArmorMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModArmorMaterials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/block/ferro_sicilite_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/block/ferro_sicilite_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_axe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_hoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_hoe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_ingot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_ingot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_pickaxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_pickaxe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_shovel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_shovel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/ferro_sicilite_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/deepslate_sicilite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/blocks/deepslate_sicilite_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/ferro_sicilite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/blocks/ferro_sicilite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/sicilite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/blocks/sicilite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/sicilite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/loot_tables/blocks/sicilite_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_bow_smithing.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_bow_smithing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_helmet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_hoe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_shovel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/bone_tools/bone_sword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_hatchet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_tools/flint_hatchet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_tools/flint_hoe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_knife.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_tools/flint_knife.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_tools/flint_pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/flint_tools/flint_shovel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_dagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_tools/sicilite_dagger.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_hoe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_shovel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/sicilite_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools/ferro_sicilite_sword.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +156,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/data/aenarim/recipes/ferro_sicilite_tools",
+    "last_opened_file_path": "C:/Users/buhguh/Documents/GitHub/Aenarimexp/src/main/resources/assets/aenarim/models/item",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -275,8 +165,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\ferro_sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\assets\aenarim\models\item" />
+      <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\aenarim\recipes\ferro_sicilite_tools" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\advancements\story" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\tags\blocks\mineable" />
       <recent name="C:\Users\buhguh\Documents\GitHub\Aenarimexp\src\main\resources\data\minecraft\tags\blocks" />

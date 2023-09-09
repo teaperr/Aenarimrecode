@@ -75,6 +75,15 @@ public class ModItems {
             new ModHoeItem(ModToolMaterials.SICILITE, -3f, -3f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item SICILITE_NUGGET = registerItem("sicilite_nugget",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SICILITE_HELMET = registerItem("sicilite_helmet",
+            new ModArmorItem(ModArmorMaterials.SICILITE, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SICILITE_CHESTPLATE = registerItem("sicilite_chestplate",
+            new ArmorItem(ModArmorMaterials.SICILITE, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SICILITE_LEGGINGS = registerItem("sicilite_leggings",
+            new ArmorItem(ModArmorMaterials.SICILITE, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item SICILITE_BOOTS = registerItem("sicilite_boots",
+            new ArmorItem(ModArmorMaterials.SICILITE, EquipmentSlot.FEET, new FabricItemSettings().group(ItemGroup.COMBAT)));
+
     //ferro-sicilite items
     public static final Item FERRO_SICILITE_INGOT = registerItem("ferro_sicilite_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
