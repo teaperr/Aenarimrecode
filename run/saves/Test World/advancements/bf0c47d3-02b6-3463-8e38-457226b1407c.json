@@ -1,0 +1,15 @@
+{
+  "aenarim:start_blacklist": {
+    "criteria": {
+      "runonworldgeneration": "2023-09-10 17:11:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2023-09-10 17:11:29 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

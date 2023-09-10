@@ -11,14 +11,12 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "items": [
-                  "aenarim:flint_knife"
-                ]
+                "tag": "minecraft:swords"
               }
             },
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.15
             }
           ]
         }

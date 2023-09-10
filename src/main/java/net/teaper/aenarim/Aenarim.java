@@ -15,9 +15,8 @@ public class Aenarim implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//KEEP THIS AT THE TOP
 		ModConfiguredFeatures.registerConfiguredFeatures();
-		// ^
+
 		ModItems.registerModItems();
 
 		ModBlocks.registerModBlocks();

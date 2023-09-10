@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aenarim:flint_pickaxe",
-    "aenarim:bone_pickaxe"
+    "aenarim:bone_pickaxe",
+    "aenarim:sicilite_pickaxe",
+    "aenarim:ferro_sicilite_pickaxe"
   ]
 }

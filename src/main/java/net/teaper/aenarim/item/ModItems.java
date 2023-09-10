@@ -7,12 +7,16 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.teaper.aenarim.Aenarim;
 import net.teaper.aenarim.item.custom.*;
+import net.teaper.aenarim.item.custom.tooltips.Sicilite_DaggerTooltip;
+import net.teaper.aenarim.item.custom.tooltips.Sugar_BreadTooltip;
 
 public class ModItems {
 
+    public static final Item TEST_SWORDBOW = registerItem("test_swordbow",
+            new ModSwordBowItem(ModToolMaterials.SICILITE, 10, 2, new FabricItemSettings().group(ItemGroup.COMBAT)));
     // :3
     public static final Item SNAIL_CAT = registerItem("snail_cat",
-            new SnailCat(new FabricItemSettings().maxDamage(9999).fireproof()));
+            new SnailCat(new FabricItemSettings().maxDamage(9999)));
 
     //material type items start
     public static final Item FIBRE = registerItem("fibre",
@@ -23,7 +27,7 @@ public class ModItems {
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));
     //food items
     public static final Item SUGAR_BREAD = registerItem("sugar_bread",
-            new ModTooltip(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUGAR_BREAD)));
+            new Sugar_BreadTooltip(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUGAR_BREAD)));
 
 
     //tool items start
@@ -68,7 +72,7 @@ public class ModItems {
     public static final Item SICILITE_SWORD = registerItem("sicilite_sword",
             new SwordItem(ModToolMaterials.SICILITE, (int) 3f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item SICILITE_DAGGER = registerItem("sicilite_dagger",
-            new SwordItem(ModToolMaterials.SICILITE, (int) 1.5f, 1f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new Sicilite_DaggerTooltip(ModToolMaterials.SICILITE, (int) 1.5f, 1f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item SICILITE_AXE = registerItem("sicilite_axe",
             new AxeItem(ModToolMaterials.SICILITE, 5f, -3.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item SICILITE_PICKAXE = registerItem("sicilite_pickaxe",
@@ -112,8 +116,6 @@ public class ModItems {
     public static final Item FERRO_SICILITE_BOOTS = registerItem("ferro_sicilite_boots",
             new ArmorItem(ModArmorMaterials.FERRO_SICILITE, EquipmentSlot.FEET, new FabricItemSettings().group(ItemGroup.COMBAT)));
     //adv items start
-
-    //adv items end
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Aenarim.MOD_ID, name), item);
     }

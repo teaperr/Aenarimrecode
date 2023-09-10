@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aenarim:flint_shovel",
-    "aenarim:bone_shovel"
+    "aenarim:bone_shovel",
+    "aenarim:sicilite_shovel",
+    "aenarim:ferro_sicilite_shovel"
   ]
 }

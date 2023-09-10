@@ -1,0 +1,243 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2023-09-10 17:36:49
+Description: Unexpected error
+
+java.lang.ClassCastException: class net.minecraft.item.Item cannot be cast to class java.util.function.Predicate (net.minecraft.item.Item is in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @6c49835d; java.util.function.Predicate is in module java.base of loader 'bootstrap')
+	at net.teaper.aenarim.item.custom.ModSwordBowItem.getProjectiles(ModSwordBowItem.java:131)
+	at net.minecraft.item.RangedWeaponItem.getHeldProjectiles(RangedWeaponItem.java:19)
+	at net.minecraft.entity.player.PlayerEntity.getArrowType(PlayerEntity.java:2212)
+	at net.teaper.aenarim.item.custom.ModSwordBowItem.use(ModSwordBowItem.java:121)
+	at net.minecraft.item.ItemStack.use(ItemStack.java:276)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.method_41929(ClientPlayerInteractionManager.java:387)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.sendSequencedPacket(ClientPlayerInteractionManager.java:278)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.interactItem(ClientPlayerInteractionManager.java:379)
+	at net.minecraft.client.MinecraftClient.doItemUse(MinecraftClient.java:1768)
+	at net.minecraft.client.MinecraftClient.handleInputEvents(MinecraftClient.java:2002)
+	at net.minecraft.client.MinecraftClient.tick(MinecraftClient.java:1829)
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1135)
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:768)
+	at net.minecraft.client.main.Main.main(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.teaper.aenarim.item.custom.ModSwordBowItem.getProjectiles(ModSwordBowItem.java:131)
+	at net.minecraft.item.RangedWeaponItem.getHeldProjectiles(RangedWeaponItem.java:19)
+	at net.minecraft.entity.player.PlayerEntity.getArrowType(PlayerEntity.java:2212)
+	at net.teaper.aenarim.item.custom.ModSwordBowItem.use(ModSwordBowItem.java:121)
+	at net.minecraft.item.ItemStack.use(ItemStack.java:276)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.method_41929(ClientPlayerInteractionManager.java:387)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.sendSequencedPacket(ClientPlayerInteractionManager.java:278)
+	at net.minecraft.client.network.ClientPlayerInteractionManager.interactItem(ClientPlayerInteractionManager.java:379)
+	at net.minecraft.client.MinecraftClient.doItemUse(MinecraftClient.java:1768)
+	at net.minecraft.client.MinecraftClient.handleInputEvents(MinecraftClient.java:2002)
+Mixins in Stacktrace:
+	net.minecraft.entity.player.PlayerEntity:
+		net.fabricmc.fabric.mixin.entity.event.PlayerEntityMixin (fabric-entity-events-v1.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.elytra.PlayerEntityMixin (fabric-entity-events-v1.mixins.json)
+	net.minecraft.item.ItemStack:
+		net.fabricmc.fabric.mixin.item.ItemStackMixin (fabric-item-api-v1.mixins.json)
+		io.wispforest.owo.mixin.ItemStackMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.item.client.ItemStackMixin (fabric-item-api-v1.client.mixins.json)
+	net.minecraft.client.network.ClientPlayerInteractionManager:
+		net.fabricmc.fabric.mixin.event.interaction.client.ClientPlayerInteractionManagerMixin (fabric-events-interaction-v0.client.mixins.json)
+		net.fabricmc.fabric.mixin.item.client.ClientPlayerInteractionManagerMixin (fabric-item-api-v1.client.mixins.json)
+	net.minecraft.client.MinecraftClient:
+		me.jellysquid.mods.sodium.mixin.core.MixinMinecraftClient (sodium.mixins.json)
+		dev.isxander.zoomify.mixins.hooks.MinecraftClientMixin (zoomify.mixins.json)
+		net.fabricmc.fabric.mixin.networking.client.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		io.wispforest.owo.mixin.ui.MinecraftClientMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.datagen.client.MinecraftClientMixin (fabric-data-generation-api-v1.client.mixins.json)
+		mezz.jei.fabric.mixin.MinecraftMixin (jei.mixins.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		io.wispforest.owo.mixin.MinecraftClientMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Player947'/152, l='ClientLevel', x=-35.70, y=68.00, z=41.75]]
+	Chunk stats: 1024, 319
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-32,73,-80), Section: (at 0,9,0 in -2,4,-5; chunk contains blocks -32,-64,-80 to -17,319,-65), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Level time: 383501 game time, 1000 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.addDetailsToCrashReport(ClientWorld.java:453)
+	at net.minecraft.client.MinecraftClient.addDetailsToCrashReport(MinecraftClient.java:2341)
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:792)
+	at net.minecraft.client.main.Main.main(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+Mixins in Stacktrace:
+	net.minecraft.client.world.ClientWorld:
+		me.jellysquid.mods.sodium.mixin.features.chunk_rendering.MixinClientWorld (sodium.mixins.json)
+		ca.spottedleaf.starlight.mixin.client.world.ClientLevelMixin (starlight.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.ClientWorldMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		me.jellysquid.mods.sodium.mixin.features.fast_biome_colors.MixinClientWorld (sodium.mixins.json)
+	net.minecraft.client.MinecraftClient:
+		me.jellysquid.mods.sodium.mixin.core.MixinMinecraftClient (sodium.mixins.json)
+		dev.isxander.zoomify.mixins.hooks.MinecraftClientMixin (zoomify.mixins.json)
+		net.fabricmc.fabric.mixin.networking.client.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		io.wispforest.owo.mixin.ui.MinecraftClientMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.datagen.client.MinecraftClientMixin (fabric-data-generation-api-v1.client.mixins.json)
+		mezz.jei.fabric.mixin.MinecraftMixin (jei.mixins.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		io.wispforest.owo.mixin.MinecraftClientMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+	net.minecraft.client.main.Main:
+		io.github.ultimateboomer.smoothboot.mixin.client.MainMixin (smoothboot.mixins.json)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Fabric Mods
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.8, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 642850128 bytes (613 MiB) / 2103443456 bytes (2006 MiB) up to 2103443456 bytes (2006 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	Microarchitecture: Ivy Bridge (Client)
+	Frequency (GHz): 2.89
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2176.00
+	Graphics card #0 deviceId: 0x0152
+	Graphics card #0 versionInfo: DriverVersion=10.18.10.5161
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.60
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 1.60
+	Memory slot #1 type: DDR3
+	Virtual memory max (MB): 14416.49
+	Virtual memory used (MB): 11306.51
+	Swap memory total (MB): 6400.00
+	Swap memory used (MB): 2524.95
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		aenarim: Aenarim 0.0.16-1.19.2
+		alloy_forgery: Alloy Forgery 2.0.20+1.19
+		fabric-api: Fabric API 0.76.1+1.19.2
+		fabric-api-base: Fabric API Base 0.4.15+8f4e8eb390
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.14+93d8cb8290
+		fabric-biome-api-v1: Fabric Biome API (v1) 9.1.1+16f1e31390
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.2+e415d50e90
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.25+cafc6e8e90
+		fabric-client-tags-api-v1: Fabric Client Tags 1.0.5+b35fea8390
+		fabric-command-api-v2: Fabric Command API (v2) 2.2.1+413cbbc790
+		fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.2+7c6cd14d90
+		fabric-convention-tags-v1: Fabric Convention Tags 1.3.0+4bc6e26290
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.8+aeb40ebe90
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.3.9+413cbbc790
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.35+0d0f210290
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.4+9244241690
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.34+562bff6e90
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.24+b6b6abb490
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 1.1.8+4d0d570390
+		fabric-item-api-v1: Fabric Item API (v1) 1.6.6+b7d1888890
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.39+9244241690
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.25+5c4fce2890
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.3+kotlin.1.8.20
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.20
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.20
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.20.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.6.4
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.6.4
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.5.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.5.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.5.0
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.4+1b46dc7890
+		fabric-loot-api-v2: Fabric Loot API (v2) 1.1.13+83a8659290
+		fabric-message-api-v1: Fabric Message API (v1) 5.0.7+93d8cb8290
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.24+33fbc73890
+		fabric-models-v0: Fabric Models (v0) 0.3.21+c6af733c90
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.2.12+def3f86d90
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.2.2+d8ef690890
+		fabric-particles-v1: Fabric Particles (v1) 1.0.14+4d0d570390
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.2+413cbbc790
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.33+9244241690
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 1.2.1+1adbf27790
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.8.0+1adbf27790
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.19+6e0787e690
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.11+4d0d570390
+		fabric-rendering-v1: Fabric Rendering (v1) 1.12.1+d8ef690890
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.2+aae9039d90
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.8.4+edbdcddb90
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.32+4d0d570390
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.8+1cc24b1b90
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.2+c4f28df590
+		fabric-textures-v0: Fabric Textures (v0) 1.0.24+aeb40ebe90
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.6+413cbbc790
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.3+08b73de490
+		fabricloader: Fabric Loader 0.14.19
+		geckolib3: Geckolib 3.1.40
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		jei: Just Enough Items 11.6.0.1018
+		minecraft: Minecraft 1.19.2
+		mixin-conflict-helper: Mixin Conflict Helper 1.2.0
+		mixintrace: MixinTrace 1.1.1+1.17
+		modmenu: Mod Menu 4.1.2
+		owo: oÏ‰o 0.9.3+1.19
+		smoothboot: Smooth Boot 1.19-1.7.1
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		starlight: Starlight 1.1.1+fabric.ae22326
+		yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+		zoomify: Zoomify 2.9.0
+			com_github_llamalad7_mixinextras: mixinextras 0.1.1
+			dev_isxander_settxi_settxi-core: settxi-core 2.10.5
+			dev_isxander_settxi_settxi-gui: settxi-gui 2.10.5
+			dev_isxander_settxi_settxi-kotlinx-serialization: settxi-kotlinx-serialization 2.10.5
+			settxi-gui-yacl: Settxi Gui (YetAnotherConfigLib) 2.10.5
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Intel(R) HD Graphics 2500 GL version 3.2.0 - Build 10.18.10.5161, Intel
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: Fabric Mods
+	Current Language: English (US)
+	CPU: 4x Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayerEntity['Player947'/152, l='ServerLevel[Test World]', x=-35.70, y=68.00, z=41.75]]
+	Data Packs: vanilla, Fabric Mods
+	World Generation: Stable

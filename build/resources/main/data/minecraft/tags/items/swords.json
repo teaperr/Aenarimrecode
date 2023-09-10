@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aenarim:flint_knife",
-    "aenarim:bone_sword"
+    "aenarim:bone_sword",
+    "aenarim:sicilite_sword",
+    "aenarim:ferro_sicilite_sword"
   ]
 }

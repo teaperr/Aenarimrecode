@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aenarim:flint_hatchet",
-    "aenarim:bone_axe"
+    "aenarim:bone_axe",
+    "aenarim:sicilite_axe",
+    "aenarim:ferro_sicilite_axe"
   ]
 }

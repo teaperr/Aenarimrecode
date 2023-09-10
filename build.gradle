@@ -23,15 +23,6 @@ repositories {
 		name = 'GeckoLib'
 		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
 	}
-	//maven {
-	//	url = 'https://jitpack.io'
-	//}
-	//maven {
-	//	url "https://maven.shedaniel.me/"
-	//}
-	//maven {
-	//	url "https://maven.terraformersmc.com/releases/"
-	//}
 }
 
 dependencies {
