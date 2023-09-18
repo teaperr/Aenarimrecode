@@ -12,6 +12,9 @@ import net.teaper.aenarim.item.custom.tooltips.Sugar_BreadTooltip;
 
 public class ModItems {
 
+    public static final Item CRYSTAL_BEAM = registerItem("crystal_beam",
+            (Item)new ArrowItem(new Item.Settings().group(ItemGroup.COMBAT)));
+
     public static final Item TEST_SWORDBOW = registerItem("test_swordbow",
             new ModSwordBowItem(ModToolMaterials.SICILITE, 10, 2, new FabricItemSettings().group(ItemGroup.COMBAT)));
     // :3
@@ -42,6 +45,8 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.FLINT, 1.5f, -2.4f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new ModHoeItem(ModToolMaterials.FLINT, -1, -2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item FLINT_BOW = registerItem("flint_bow",
+            new ModBowItemFast(new FabricItemSettings().group(ItemGroup.COMBAT).maxDamage(125)));
         //shields
 
         //bone tools
