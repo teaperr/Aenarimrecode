@@ -1,5 +1,5 @@
-[17:53:15] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
-[17:53:16] [main/INFO] (FabricLoader) Loading 77 mods:
+[18:26:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
+[18:26:14] [main/INFO] (FabricLoader) Loading 77 mods:
 	- aenarim 0.0.16-1.19.2
 	- alloy_forgery 2.0.20+1.19
 	- fabric-api 0.76.1+1.19.2
@@ -77,19 +77,19 @@
 	   |-- dev_isxander_settxi_settxi-gui 2.10.5
 	   |-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.5
 	   \-- settxi-gui-yacl 2.10.5
-[17:53:34] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:53:34] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:53:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:53:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:53:35] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
-[17:53:36] [main/WARN] (FabricLoader/Mixin) Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[17:53:37] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[17:53:37] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[17:53:38] [main/INFO] (Smooth Boot) Smooth Boot config initialized
-[17:53:49] [main/INFO] (Minecraft) Building optimized datafixer
-[17:53:55] [Render thread/WARN] (FabricLoader/Mixin) Error loading class: org/quiltmc/loader/impl/game/minecraft/Hooks (java.lang.ClassNotFoundException: org/quiltmc/loader/impl/game/minecraft/Hooks)
-[17:53:55] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:53:56] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[18:26:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[18:26:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[18:26:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[18:26:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[18:26:29] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[18:26:30] [main/WARN] (FabricLoader/Mixin) Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[18:26:30] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[18:26:30] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[18:26:30] [main/INFO] (Smooth Boot) Smooth Boot config initialized
+[18:26:37] [main/INFO] (Minecraft) Building optimized datafixer
+[18:26:41] [Render thread/WARN] (FabricLoader/Mixin) Error loading class: org/quiltmc/loader/impl/game/minecraft/Hooks (java.lang.ClassNotFoundException: org/quiltmc/loader/impl/game/minecraft/Hooks)
+[18:26:41] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:26:42] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.jar:?]
@@ -108,20 +108,20 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.jar:?]
 	... 10 more
-[17:53:56] [Render thread/INFO] (Minecraft) Setting user: Player474
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for geoexampleentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for bikeentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for carentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for extendedrendererentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for textureperbonetestentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for leentity
-[17:53:57] [Render thread/ERROR] (Minecraft) No data fixer registered for rocketprojectile
-[17:53:57] [Render thread/INFO] (owo) it seems to react to redstone
-[17:53:57] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
-[17:54:00] [Render thread/WARN] (FabricLoader/Mixin) Static binding violation: PRIVATE @Overwrite method renderBakedItemModel in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[17:54:00] [Render thread/INFO] (owo) Services frozen by 'net.minecraft.client.MinecraftClient'
-[17:54:00] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[17:54:03] [Worker-Main-2/ERROR] (Minecraft) Failed to retrieve profile key pair
+[18:26:42] [Render thread/INFO] (Minecraft) Setting user: Player326
+[18:26:43] [Render thread/INFO] (owo) glisco: I like this approach, cause it's stateless. And stateless approaches are always good since state management is pain - BasiqueEvangelist: I like french bread
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for geoexampleentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for bikeentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for carentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for extendedrendererentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for textureperbonetestentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for leentity
+[18:26:43] [Render thread/ERROR] (Minecraft) No data fixer registered for rocketprojectile
+[18:26:45] [Render thread/WARN] (FabricLoader/Mixin) Static binding violation: PRIVATE @Overwrite method renderBakedItemModel in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[18:26:45] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[18:26:45] [Render thread/INFO] (owo) Services frozen by 'net.minecraft.client.MinecraftClient'
+[18:26:46] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[18:26:47] [Worker-Main-2/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:130) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -132,89 +132,90 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[17:54:03] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Message API (v1), Fabric Particles (v1), Just Enough Items, Fabric Renderer - Indigo, Fabric Models (v0), Alloy Forgery, Smooth Boot, Fabric Entity Events (v1), Fabric Convention Tags, Fabric Screen API (v1), Zoomify, Fabric Content Registries (v0), Fabric Sound API (v1), Fabric Loot API (v2), MixinTrace, Fabric Registry Sync (v0), Fabric API Base, Mod Menu, Fabric Biome API (v1), Fabric Game Test API (v1), Fabric Loader, Fabric Object Builder API (v1), Starlight, Fabric Rendering Data Attachment (v1), Fabric Dimensions API (v1), Fabric Client Tags, Fabric Events Interaction (v0), Fabric API, Fabric Networking API (v1), Geckolib, Fabric API Lookup API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Transfer API (v1), Fabric Item Groups (v0), Fabric Lifecycle Events (v1), Fabric Resource Conditions API (v1), Fabric Block API (v1), Fabric Transitive Access Wideners (v1), Fabric Rendering Fluids (v1), Fabric Key Binding API (v1), Fabric Textures (v0), Fabric Item API (v1), Fabric Language Kotlin, Fabric Resource Loader (v0), Aenarim, YetAnotherConfigLib, oωo, Fabric Data Generation API (v1), Fabric Crash Report Info (v1), Fabric Game Rule API (v1), Fabric Renderer API (v1), Sodium, Fabric Mining Level API (v1), Fabric Rendering (v1), Fabric Screen Handler API (v1), Fabric Command API (v2), Fabric Recipe API (v1))
-[17:54:03] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[17:54:04] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[17:54:09] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'aenarim:test_swordbow#inventory' referenced from: aenarim:test_swordbow#inventory: java.io.FileNotFoundException: aenarim:models/item/test_swordbow.json
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
-[17:54:10] [Worker-Main-6/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
-[17:54:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:54:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:54:12] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
-[17:54:12] [Render thread/INFO] (Minecraft) Sound engine started
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:54:13] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:54:15] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:54:15] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:54:15] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:54:15] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:54:15] [Render thread/INFO] (Minecraft) Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[17:54:15] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[17:55:10] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_axe
+[18:26:47] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric API Base, Fabric Resource Loader (v0), Fabric Object Builder API (v1), Fabric API, Fabric Recipe API (v1), Fabric Rendering Fluids (v1), Mod Menu, Fabric Sound API (v1), Fabric Models (v0), Fabric Item API (v1), Fabric Lifecycle Events (v1), Just Enough Items, Fabric Renderer API (v1), Sodium, Fabric Rendering Data Attachment (v1), Fabric Client Tags, Fabric Dimensions API (v1), Alloy Forgery, Fabric BlockRenderLayer Registration (v1), Fabric Entity Events (v1), Fabric Block API (v1), Fabric Data Generation API (v1), Zoomify, Fabric Events Interaction (v0), Fabric Item Groups (v0), Fabric Message API (v1), Aenarim, Fabric Command API (v2), Fabric Particles (v1), Fabric Transitive Access Wideners (v1), Fabric Key Binding API (v1), oωo, Fabric Screen API (v1), Fabric Game Test API (v1), Fabric Networking API (v1), Smooth Boot, Geckolib, Fabric Convention Tags, Starlight, Fabric Loader, Fabric Transfer API (v1), Fabric Renderer - Indigo, Fabric Screen Handler API (v1), Fabric Registry Sync (v0), Fabric API Lookup API (v1), Fabric Game Rule API (v1), Fabric Biome API (v1), Fabric Language Kotlin, Fabric Rendering (v1), Fabric Resource Conditions API (v1), YetAnotherConfigLib, Fabric Crash Report Info (v1), Fabric Content Registries (v0), Fabric Loot API (v2), Fabric Mining Level API (v1), MixinTrace, Fabric Textures (v0))
+[18:26:47] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[18:26:48] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[18:26:50] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'aenarim:crystal_beam#inventory' referenced from: aenarim:crystal_beam#inventory: java.io.FileNotFoundException: aenarim:models/item/crystal_beam.json
+[18:26:50] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'aenarim:flint_bow#inventory' referenced from: aenarim:flint_bow#inventory: java.io.FileNotFoundException: aenarim:models/item/flint_bow.json
+[18:26:50] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'aenarim:test_swordbow#inventory' referenced from: aenarim:test_swordbow#inventory: java.io.FileNotFoundException: aenarim:models/item/test_swordbow.json
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[18:26:52] [Worker-Main-4/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[18:26:53] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[18:26:53] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18:26:53] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[18:26:53] [Render thread/INFO] (Minecraft) Sound engine started
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:26:53] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:26:54] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18:26:54] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:26:54] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:26:55] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:26:55] [Render thread/INFO] (Minecraft) Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[18:26:55] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -255,7 +256,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -296,7 +297,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -337,7 +338,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -378,7 +379,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -419,7 +420,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -460,7 +461,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -501,7 +502,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -542,7 +543,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -583,7 +584,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -624,7 +625,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -665,7 +666,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_axe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -706,7 +707,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -747,7 +748,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -788,7 +789,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -829,7 +830,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -870,7 +871,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -911,7 +912,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -952,7 +953,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -993,7 +994,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1034,7 +1035,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1075,7 +1076,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:leather_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1116,7 +1117,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1157,7 +1158,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1198,7 +1199,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1239,7 +1240,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1280,7 +1281,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1321,7 +1322,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1362,7 +1363,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1403,7 +1404,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1444,7 +1445,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1485,7 +1486,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1526,7 +1527,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1567,7 +1568,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1608,7 +1609,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1649,7 +1650,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1690,7 +1691,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_axe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1731,7 +1732,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1772,7 +1773,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1813,7 +1814,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1854,7 +1855,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_leggings
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:chainmail_leggings
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1895,7 +1896,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:golden_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1936,7 +1937,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -1977,7 +1978,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_shovel
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_shovel
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2018,7 +2019,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_chestplate
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_chestplate
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2059,7 +2060,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2100,7 +2101,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_sword
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:netherite_sword
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2141,7 +2142,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_helmet
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_helmet
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2182,7 +2183,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_boots
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_boots
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2223,7 +2224,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2264,7 +2265,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_axe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_axe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2305,7 +2306,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2346,7 +2347,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_hoe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:diamond_hoe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2387,7 +2388,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_pickaxe
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:iron_pickaxe
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JsonHelper.getString(JsonHelper.java:119) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:132) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -2428,8 +2429,8 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/INFO] (Minecraft) Loaded 8 recipes
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/dark_oak_leaves
+[18:27:16] [Render thread/INFO] (Minecraft) Loaded 8 recipes
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/dark_oak_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -2519,7 +2520,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/mangrove_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/mangrove_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -2609,7 +2610,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/jungle_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/jungle_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -2699,7 +2700,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:warped_wood'
 	at net.minecraft.util.JsonHelper.method_17995(JsonHelper.java:137) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2775,7 +2776,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/birch_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/birch_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -2865,7 +2866,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/azalea_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/azalea_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -2955,7 +2956,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_crimson_wood'
 	at net.minecraft.util.JsonHelper.method_17995(JsonHelper.java:137) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -3031,7 +3032,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/spruce_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/spruce_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -3121,7 +3122,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/acacia_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/acacia_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -3211,7 +3212,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/cherry_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/cherry_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -3301,7 +3302,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_warped_wood'
 	at net.minecraft.util.JsonHelper.method_17995(JsonHelper.java:137) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -3377,7 +3378,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/oak_leaves
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/oak_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
@@ -3467,23 +3468,23 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:any_of'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[17:55:17] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/iron_tools: Missing criteria, expected to find a JsonObject
-[17:55:17] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/mine_stone: Missing criteria, expected to find a JsonObject
-[17:55:17] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Missing criteria, expected to find a JsonObject
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@50029f7d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={iron_boots=net.minecraft.advancement.AdvancementCriterion@4c4a4ed7, iron_chestplate=net.minecraft.advancement.AdvancementCriterion@e637044, iron_leggings=net.minecraft.advancement.AdvancementCriterion@26dd6fc0, iron_helmet=net.minecraft.advancement.AdvancementCriterion@2fe8f813}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@695058da, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={lava_bucket=net.minecraft.advancement.AdvancementCriterion@1100d83}, requirements=[[lava_bucket]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancement.AdvancementDisplay@5a101b1c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={deflected_projectile=net.minecraft.advancement.AdvancementCriterion@5b6d69c8}, requirements=[[deflected_projectile]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancement.AdvancementDisplay@18a5bc80, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={entered_nether=net.minecraft.advancement.AdvancementCriterion@2836a575}, requirements=[[entered_nether]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@3b3fafbc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={cured_zombie=net.minecraft.advancement.AdvancementCriterion@26bfb8a3}, requirements=[[cured_zombie]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancement.AdvancementDisplay@1e48f179, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={obsidian=net.minecraft.advancement.AdvancementCriterion@456938b3}, requirements=[[obsidian]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancement.AdvancementDisplay@62d291ef, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={iron=net.minecraft.advancement.AdvancementCriterion@6ef281a6}, requirements=[[iron]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@5f2afc77, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={diamond_leggings=net.minecraft.advancement.AdvancementCriterion@252fb985, diamond_helmet=net.minecraft.advancement.AdvancementCriterion@4dbbec7c, diamond_chestplate=net.minecraft.advancement.AdvancementCriterion@6ef34b5f, diamond_boots=net.minecraft.advancement.AdvancementCriterion@6632cbb2}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@581e69b5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={enchanted_item=net.minecraft.advancement.AdvancementCriterion@2881465f}, requirements=[[enchanted_item]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@476acb39, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={in_stronghold=net.minecraft.advancement.AdvancementCriterion@65fbde35}, requirements=[[in_stronghold]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancement.AdvancementDisplay@533e0594, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={diamond=net.minecraft.advancement.AdvancementCriterion@680f73b0}, requirements=[[diamond]]}
-[17:55:17] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancement.AdvancementDisplay@65212bc4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@25858737}, criteria={entered_end=net.minecraft.advancement.AdvancementCriterion@76a05623}, requirements=[[entered_end]]}
-[17:55:17] [Render thread/INFO] (Minecraft) Loaded 1173 advancements
-[17:55:19] [Worker-Main-6/ERROR] (Minecraft) Failed to retrieve profile key pair
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/iron_tools: Missing criteria, expected to find a JsonObject
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/mine_stone: Missing criteria, expected to find a JsonObject
+[18:27:16] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Missing criteria, expected to find a JsonObject
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@2d8decc6, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={iron_boots=net.minecraft.advancement.AdvancementCriterion@1b9869aa, iron_chestplate=net.minecraft.advancement.AdvancementCriterion@42379721, iron_leggings=net.minecraft.advancement.AdvancementCriterion@18a5bc80, iron_helmet=net.minecraft.advancement.AdvancementCriterion@2836a575}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancement.AdvancementDisplay@3b3fafbc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={lava_bucket=net.minecraft.advancement.AdvancementCriterion@26bfb8a3}, requirements=[[lava_bucket]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancement.AdvancementDisplay@1e48f179, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={deflected_projectile=net.minecraft.advancement.AdvancementCriterion@456938b3}, requirements=[[deflected_projectile]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancement.AdvancementDisplay@62d291ef, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={entered_nether=net.minecraft.advancement.AdvancementCriterion@6ef281a6}, requirements=[[entered_nether]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@5f2afc77, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={cured_zombie=net.minecraft.advancement.AdvancementCriterion@252fb985}, requirements=[[cured_zombie]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancement.AdvancementDisplay@6632cbb2, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={obsidian=net.minecraft.advancement.AdvancementCriterion@3e09b560}, requirements=[[obsidian]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancement.AdvancementDisplay@2881465f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={iron=net.minecraft.advancement.AdvancementCriterion@5bd0549a}, requirements=[[iron]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@65fbde35, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={diamond_leggings=net.minecraft.advancement.AdvancementCriterion@3cd63294, diamond_helmet=net.minecraft.advancement.AdvancementCriterion@429c2dfd, diamond_chestplate=net.minecraft.advancement.AdvancementCriterion@533e0594, diamond_boots=net.minecraft.advancement.AdvancementCriterion@680f73b0}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancement.AdvancementDisplay@65212bc4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={enchanted_item=net.minecraft.advancement.AdvancementCriterion@76a05623}, requirements=[[enchanted_item]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancement.AdvancementDisplay@38959a4c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={in_stronghold=net.minecraft.advancement.AdvancementCriterion@4c70d233}, requirements=[[in_stronghold]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancement.AdvancementDisplay@6f4c411, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={diamond=net.minecraft.advancement.AdvancementCriterion@4cdf6fb6}, requirements=[[diamond]]}
+[18:27:16] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancement.AdvancementDisplay@2105c455, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.server.function.CommandFunction$LazyContainer@5b6d69c8}, criteria={entered_end=net.minecraft.advancement.AdvancementCriterion@1690bd1c}, requirements=[[entered_end]]}
+[18:27:16] [Render thread/INFO] (Minecraft) Loaded 1173 advancements
+[18:27:18] [Worker-Main-2/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.util.ProfileKeys.fetchKeyPair(ProfileKeys.java:130) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
 	at net.minecraft.client.util.ProfileKeys.method_44291(ProfileKeys.java:69) ~[minecraft-merged-project-root-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.2-v2.jar:?]
@@ -3494,294 +3495,284 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[17:55:20] [Render thread/INFO] (BiomeModificationImpl) Applied 52 biome modifications to 52 of 63 new biomes in 42.51 ms
-[17:55:20] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
-[17:55:20] [Server thread/INFO] (Minecraft) Generating keypair
-[17:55:21] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:55:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[17:55:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[17:55:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[17:55:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[17:55:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[17:55:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[17:55:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 7%
-[17:55:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 25%
-[17:55:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 32%
-[17:55:37] [Render thread/INFO] (Minecraft) Time elapsed: 15957 ms
-[17:55:38] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
-[17:55:38] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[17:55:39] [Server thread/INFO] (owo) [Handshake] Sending channel query
-[17:55:39] [Netty Local Client IO #0/INFO] (owo) [Handshake] Sending client channels
-[17:55:39] [Netty Server IO #1/INFO] (owo) [Handshake] Receiving client channels
-[17:55:39] [Netty Server IO #1/INFO] (owo) [Handshake] Handshake completed successfully
-[17:55:40] [Server thread/INFO] (Minecraft) Player474[local:E:63788c53] logged in with entity id 120 at (-56.25417546349937, 73.0, 72.10570223774398)
-[17:55:40] [Server thread/INFO] (Minecraft) Player474 joined the game
-[17:55:42] [Render thread/INFO] (ChunkBuilder) Started 1 worker threads
-[17:55:42] [Render thread/INFO] (LoggedTimer) Starting JEI...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:minecraft took 3.633 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:debug took 15.10 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:fabric_gui took 11.30 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:gui took 12.10 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:internal took 10.40 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:minecraft took 75.10 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:debug took 2.439 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:fabric_gui took 11.70 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:gui took 9.500 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:internal took 9.000 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:minecraft took 71.72 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:debug ...
-[17:55:42] [Render thread/INFO] (ConfigSerializer) Loading config file: C:\Users\buhguh\Documents\GitHub\Aenarimexp\run\config\jei\jei-debug.ini
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:debug took 12.86 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:fabric_gui took 11.90 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:gui took 8.900 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:internal took 8.600 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:minecraft took 74.88 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:debug took 16.60 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:fabric_gui took 10.60 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:gui took 20.30 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering categories: jei:internal took 19.08 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:minecraft took 4.741 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:debug took 12.50 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:fabric_gui took 9.300 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:gui took 16.40 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:internal took 14.80 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:minecraft took 3.293 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:debug took 21.30 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:fabric_gui took 14.70 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:gui took 11.20 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:internal took 9.900 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:minecraft ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:minecraft took 28.80 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:debug ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:debug took 9.800 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:fabric_gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:fabric_gui took 8.900 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:gui ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:gui took 8.600 ?s
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:internal ...
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:internal took 8.700 ?s
-[17:55:42] [Render thread/INFO] (LoggedTimer) Building recipe registry...
-[17:55:42] [Render thread/INFO] (LoggedTimer) Building recipe registry took 20.77 ms
-[17:55:42] [Render thread/INFO] (PluginCaller) Registering recipes: jei:minecraft ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:minecraft took 808.4 ms
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:debug ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:debug took 21.80 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:fabric_gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:fabric_gui took 12.80 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:gui took 9.200 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:internal ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes: jei:internal took 9.600 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:minecraft ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:minecraft took 38.68 ms
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:debug ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:debug took 42.70 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:fabric_gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:fabric_gui took 17.40 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:gui took 8.300 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:internal ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:internal took 8.100 ?s
-[17:55:43] [Render thread/INFO] (LoggedTimer) Building runtime...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:minecraft ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:minecraft took 5.288 ms
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:debug ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:debug took 22.10 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:fabric_gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:fabric_gui took 15.20 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:gui ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:gui took 10.43 ms
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:internal ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:internal took 9.400 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:minecraft ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:minecraft took 26.70 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:debug ...
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:debug took 8.700 ?s
-[17:55:43] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:fabric_gui ...
-[17:55:43] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
-[17:55:43] [Render thread/INFO] (LoggedTimer) Building ingredient list...
-[17:55:43] [Render thread/INFO] (LoggedTimer) Building ingredient list took 7.428 ms
-[17:55:43] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
-[17:55:44] [Render thread/INFO] (ConfigSerializer) Loading config file: C:\Users\buhguh\Documents\GitHub\Aenarimexp\run\config\jei\jei-client.ini
-[17:55:44] [Render thread/INFO] (IngredientFilter) Adding 1467 ingredients
-[17:55:44] [Render thread/INFO] (IngredientFilter) Added 1467 ingredients
-[17:55:44] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 745.2 ms
-[17:55:44] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:fabric_gui took 912.8 ms
-[17:55:44] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:gui ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:gui took 12.70 ?s
-[17:55:44] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:internal ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:internal took 8.400 ?s
-[17:55:44] [Render thread/INFO] (LoggedTimer) Building runtime took 1.002 s
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:minecraft ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:minecraft took 41.80 ?s
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:debug ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:debug took 14.10 ?s
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:fabric_gui ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:fabric_gui took 14.80 ?s
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:gui ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:gui took 8.600 ?s
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:internal ...
-[17:55:44] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:internal took 9.100 ?s
-[17:55:44] [Render thread/INFO] (LoggedTimer) Starting JEI took 2.306 s
-[17:55:45] [Render thread/INFO] (Minecraft) Loaded 28 advancements
-[17:55:46] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:55:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[17:55:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[17:55:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[17:55:49] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3432ms or 68 ticks behind
-[17:56:08] [Render thread/INFO] (Minecraft) Loaded 29 advancements
-[17:56:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:56:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[17:56:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[17:56:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[17:57:16] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:57:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[17:57:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[17:57:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[17:57:17] [Server thread/INFO] (Minecraft) Player474 lost connection: Disconnected
-[17:57:18] [Server thread/INFO] (Minecraft) Player474 left the game
-[17:57:18] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[17:57:18] [Server thread/INFO] (Minecraft) Stopping server
-[17:57:18] [Server thread/INFO] (Minecraft) Saving players
-[17:57:18] [Server thread/INFO] (Minecraft) Saving worlds
-[17:57:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[17:57:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[17:57:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[17:57:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
-[17:57:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:57:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:57:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[17:57:19] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
-[17:57:19] [Render thread/INFO] (JeiStarter) Stopping JEI
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:minecraft ...
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:minecraft took 25.10 ?s
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:debug ...
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:debug took 9.700 ?s
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:fabric_gui ...
-[17:57:19] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
-[17:57:19] [JEI GUI Config file watcher/INFO] (FileWatcherThread) FileWatcher was interrupted, stopping.
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:fabric_gui took 4.185 ms
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:gui ...
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:gui took 8.800 ?s
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:internal ...
-[17:57:19] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:internal took 8.700 ?s
-[17:57:19] [JEI Library Config file watcher/INFO] (FileWatcherThread) FileWatcher was interrupted, stopping.
-[17:57:19] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
-[17:57:19] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
-[17:57:51] [Render thread/INFO] (Minecraft) Stopping!
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[17:57:51] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:27:18] [Render thread/INFO] (BiomeModificationImpl) Applied 52 biome modifications to 52 of 63 new biomes in 27.67 ms
+[18:27:18] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
+[18:27:18] [Server thread/INFO] (Minecraft) Generating keypair
+[18:27:19] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[18:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:27:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[18:27:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
+[18:27:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
+[18:27:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
+[18:27:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
+[18:27:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[18:27:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 16%
+[18:27:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 21%
+[18:27:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 30%
+[18:27:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 45%
+[18:27:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 64%
+[18:27:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 77%
+[18:27:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 96%
+[18:27:30] [Render thread/INFO] (Minecraft) Time elapsed: 11557 ms
+[18:27:30] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[18:27:30] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[18:27:32] [Server thread/INFO] (owo) [Handshake] Sending channel query
+[18:27:32] [Netty Local Client IO #0/INFO] (owo) [Handshake] Sending client channels
+[18:27:32] [Netty Server IO #1/INFO] (owo) [Handshake] Receiving client channels
+[18:27:32] [Netty Server IO #1/INFO] (owo) [Handshake] Handshake completed successfully
+[18:27:33] [Server thread/INFO] (Minecraft) Player326[local:E:726d758b] logged in with entity id 130 at (-74.94690567133495, 73.0, 82.96754608926807)
+[18:27:33] [Server thread/INFO] (Minecraft) Player326 joined the game
+[18:27:33] [Server thread/INFO] (Minecraft) Player326 has made the advancement [Pink Soap]
+[18:27:34] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[18:27:36] [Render thread/INFO] (ChunkBuilder) Started 1 worker threads
+[18:27:37] [Render thread/INFO] (LoggedTimer) Starting JEI...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:minecraft ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:minecraft took 29.38 ms
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:debug ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:debug took 20.20 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:fabric_gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:fabric_gui took 13.40 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:gui took 10.30 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:internal ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering item subtypes: jei:internal took 14.80 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:minecraft ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:minecraft took 25.10 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:debug ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:debug took 2.877 ms
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:fabric_gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:fabric_gui took 13.10 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:gui took 30.30 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:internal ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering fluid subtypes: jei:internal took 12.90 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:minecraft ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:minecraft took 110.9 ms
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:debug ...
+[18:27:37] [Render thread/INFO] (ConfigSerializer) Loading config file: C:\Users\buhguh\Documents\GitHub\Aenarimexp\run\config\jei\jei-debug.ini
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:debug took 4.132 ms
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:fabric_gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:fabric_gui took 13.30 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:gui ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:gui took 9.100 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:internal ...
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering ingredients: jei:internal took 8.800 ?s
+[18:27:37] [Render thread/INFO] (PluginCaller) Registering categories: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:minecraft took 40.17 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:debug took 26.80 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:fabric_gui took 12.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:gui took 11.30 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering categories: jei:internal took 1.899 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:minecraft took 3.931 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:debug took 29.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:fabric_gui took 9.800 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:gui took 8.600 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions: jei:internal took 8.100 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:minecraft took 2.844 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:debug took 23.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:fabric_gui took 13.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:gui took 10.50 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipe catalysts: jei:internal took 9.400 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:minecraft took 32.40 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:debug took 16.90 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:fabric_gui took 9.000 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:gui took 10.50 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering advanced plugins: jei:internal took 9.700 ?s
+[18:27:38] [Render thread/INFO] (LoggedTimer) Building recipe registry...
+[18:27:38] [Render thread/INFO] (LoggedTimer) Building recipe registry took 20.90 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:minecraft took 816.4 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:debug took 17.00 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:fabric_gui took 12.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:gui took 9.100 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes: jei:internal took 8.700 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:minecraft ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:minecraft took 4.280 ms
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:debug ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:debug took 25.80 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:fabric_gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:fabric_gui took 15.70 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:gui ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:gui took 13.20 ?s
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:internal ...
+[18:27:38] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers: jei:internal took 12.70 ?s
+[18:27:39] [Render thread/INFO] (LoggedTimer) Building runtime...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:minecraft ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:minecraft took 4.560 ms
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:debug ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:debug took 44.30 ?s
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:fabric_gui ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:fabric_gui took 81.80 ?s
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:gui ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:gui took 10.39 ms
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:internal ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering gui handlers: jei:internal took 10.40 ?s
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:minecraft ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:minecraft took 35.10 ?s
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:debug ...
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:debug took 9.400 ?s
+[18:27:39] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:fabric_gui ...
+[18:27:39] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
+[18:27:39] [Render thread/INFO] (LoggedTimer) Building ingredient list...
+[18:27:39] [Render thread/INFO] (LoggedTimer) Building ingredient list took 9.752 ms
+[18:27:39] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
+[18:27:39] [Render thread/INFO] (ConfigSerializer) Loading config file: C:\Users\buhguh\Documents\GitHub\Aenarimexp\run\config\jei\jei-client.ini
+[18:27:39] [Render thread/INFO] (IngredientFilter) Adding 1469 ingredients
+[18:27:40] [Render thread/INFO] (IngredientFilter) Added 1469 ingredients
+[18:27:40] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 1.357 s
+[18:27:40] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:fabric_gui took 1.489 s
+[18:27:40] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:gui ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:gui took 11.50 ?s
+[18:27:40] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:internal ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Registering Runtime: jei:internal took 9.900 ?s
+[18:27:40] [Render thread/INFO] (LoggedTimer) Building runtime took 1.586 s
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:minecraft ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:minecraft took 29.80 ?s
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:debug ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:debug took 14.00 ?s
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:fabric_gui ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:fabric_gui took 13.80 ?s
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:gui ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:gui took 8.100 ?s
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:internal ...
+[18:27:40] [Render thread/INFO] (PluginCaller) Sending Runtime: jei:internal took 8.600 ?s
+[18:27:40] [Render thread/INFO] (LoggedTimer) Starting JEI took 2.902 s
+[18:27:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Player326 has made the advancement [Pink Soap]
+[18:27:41] [Render thread/INFO] (Minecraft) Loaded 35 advancements
+[18:27:42] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[18:27:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[18:27:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[18:27:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[18:29:14] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[18:29:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[18:29:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[18:29:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[18:29:15] [Server thread/INFO] (Minecraft) Player326 lost connection: Disconnected
+[18:29:15] [Server thread/INFO] (Minecraft) Player326 left the game
+[18:29:15] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[18:29:15] [Server thread/INFO] (Minecraft) Stopping server
+[18:29:15] [Server thread/INFO] (Minecraft) Saving players
+[18:29:15] [Server thread/INFO] (Minecraft) Saving worlds
+[18:29:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[18:29:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[18:29:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[18:29:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
+[18:29:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:17] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[18:29:17] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[18:29:17] [Render thread/INFO] (JeiStarter) Stopping JEI
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:minecraft ...
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:minecraft took 26.50 ?s
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:debug ...
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:debug took 12.40 ?s
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:fabric_gui ...
+[18:29:17] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[18:29:17] [JEI GUI Config file watcher/INFO] (FileWatcherThread) FileWatcher was interrupted, stopping.
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:fabric_gui took 2.431 ms
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:gui ...
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:gui took 9.700 ?s
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:internal ...
+[18:29:17] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable: jei:internal took 23.10 ?s
+[18:29:17] [JEI Library Config file watcher/INFO] (FileWatcherThread) FileWatcher was interrupted, stopping.
+[18:29:17] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[18:29:17] [Render thread/INFO] (aenarim) This line is printed by an example mod mixin!
+[18:29:18] [Render thread/INFO] (Minecraft) Stopping!
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[18:29:18] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'

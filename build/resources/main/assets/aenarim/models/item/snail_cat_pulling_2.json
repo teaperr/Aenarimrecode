@@ -1,7 +1,0 @@
-{
-	"parent": "aenarim:item/snail_cat",
-	"textures":
-	{
-		"layer0": "aenarim:item/snail_cat_pulling_2"
-	}
-}

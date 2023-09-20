@@ -77,7 +77,7 @@ public class ModItems {
     public static final Item SICILITE_SWORD = registerItem("sicilite_sword",
             new SwordItem(ModToolMaterials.SICILITE, (int) 3f, -2.2f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item SICILITE_DAGGER = registerItem("sicilite_dagger",
-            new Sicilite_DaggerTooltip(ModToolMaterials.SICILITE, (int) 1.5f, 1f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new Sicilite_DaggerTooltip(ModToolMaterials.SICILITE, (int) 1.5f, -0.5f, new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item SICILITE_AXE = registerItem("sicilite_axe",
             new AxeItem(ModToolMaterials.SICILITE, 5f, -3.2f, new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item SICILITE_PICKAXE = registerItem("sicilite_pickaxe",

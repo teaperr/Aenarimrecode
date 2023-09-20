@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12e2211-3c8a-4021-bdcd-6bd97b554cb2" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/fd848f75-c1a0-33b6-9d05-284593849e10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fd848f75-c1a0-33b6-9d05-284593849e10.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/fd848f75-c1a0-33b6-9d05-284593849e10.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/fd848f75-c1a0-33b6-9d05-284593849e10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/entity/ModArrowEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/CustomProjectile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModBowItemFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/util/ModModelPredicateProviderFASTBOW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-09-20-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/ab28be22-456d-3e73-98a6-b2ff858bf61e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/f2937d48-a72f-3375-bb6f-69c5f204d185.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ab28be22-456d-3e73-98a6-b2ff858bf61e.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/ab28be22-456d-3e73-98a6-b2ff858bf61e.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/f2937d48-a72f-3375-bb6f-69c5f204d185.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/f2937d48-a72f-3375-bb6f-69c5f204d185.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/ab28be22-456d-3e73-98a6-b2ff858bf61e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Test World/stats/f2937d48-a72f-3375-bb6f-69c5f204d185.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_bow_pulling_0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_bow_pulling_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_bow_pulling_2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -22,7 +27,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/util/ModModelPredicateProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/util/ModModelPredicateProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/AenarimClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/AenarimClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModArmorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModArmorItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModBowItemSlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/item/custom/ModBowItemSlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/teaper/aenarim/util/ModModelPredicateProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/bone_bow.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/bone_bow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/snail_cat.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/snail_cat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/snail_cat_pulling_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/snail_cat_pulling_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/models/item/snail_cat_pulling_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/snail_cat_pulling_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/snail_cat_pulling_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/aenarim/textures/item/snail_cat_pulling_2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/com_github_llamalad7_mixinextras-0.1.1-2ad6de7470890b3b.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/dev_isxander_settxi_settxi-core-2.10.5-e1d08fa1061600e9.jar" afterDir="false" />
@@ -52,6 +70,11 @@
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/yet-another-config-lib-2.2.0-for-1.19.2-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/zoomify-2.9.0-64b5720b4b825f21.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" afterDir="false" />
@@ -68,11 +91,18 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/AenarimClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/AenarimClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/entity/ModArrowEntity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModBowItemSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModBowItemSlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/util/ModModelPredicateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/util/ModModelPredicateProviderSLOWBOW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/item/custom/ModArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/util/ModModelPredicateProviderFASTBOW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/teaper/aenarim/util/ModModelPredicateProviderFASTBOW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/bone_bow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/models/item/snail_cat_pulling_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_bow_pulling_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_bow_pulling_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_pulling_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/aenarim/textures/item/snail_cat_bow_pulling_2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

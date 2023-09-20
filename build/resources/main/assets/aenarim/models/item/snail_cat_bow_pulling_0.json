@@ -1,0 +1,7 @@
+{
+	"parent": "item/bow",
+	"textures":
+	{
+		"layer0": "aenarim:item/snail_cat_bow_pulling_0"
+	}
+}

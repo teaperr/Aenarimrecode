@@ -8,6 +8,7 @@ import net.teaper.aenarim.item.ModItems;
 public class ModModelPredicateProviderFASTBOW {
     public static void registerModModels() {
         registerBow(ModItems.FLINT_BOW);
+        registerBow(ModItems.SNAIL_CAT);
     }
 
     private static void registerBow(Item bow) {
@@ -20,7 +21,7 @@ public class ModModelPredicateProviderFASTBOW {
                         return 0.0f;
                     }
                                                                                 // THIS CHANGES THE BOW DRAW SPEED
-                    return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 10.0f;
+                    return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 15.0f;
                 });
 
         FabricModelPredicateProviderRegistry.register(bow, new Identifier("pulling"),

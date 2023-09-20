@@ -13,6 +13,10 @@
   "item.aenarim.flint_shovel": "Flint Shovel",
   "item.aenarim.flint_hoe": "Flint Hoe",
   "item.aenarim.flint_shield": "Flint Shield",
+  "item.aenarim.flint_bow": "Flint Shortbow",
+
+  "item.aenarim.flint_bow.tooltip": "A speedy bow reinforced with flint",
+
 
   "item.aenarim.bone_shovel": "Bone Shovel",
   "item.aenarim.bone_hoe": "Bone Hoe",
